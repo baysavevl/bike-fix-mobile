@@ -18,9 +18,11 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -29,6 +31,7 @@ public class iphone_6_7_8_plus___38_activity extends Activity {
 
 	
 	private View _bg__iphone_6_7_8_plus___38;
+	private View group_127;
 	private ImageView staticmap;
 	private View pin_bg_copy_2;
 	private View pin_bg_copy;
@@ -60,6 +63,7 @@ public class iphone_6_7_8_plus___38_activity extends Activity {
 
 		
 		_bg__iphone_6_7_8_plus___38 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___38);
+		group_127 = (View) findViewById(R.id.group_127);
 		staticmap = (ImageView) findViewById(R.id.staticmap);
 		pin_bg_copy_2 = (View) findViewById(R.id.pin_bg_copy_2);
 		pin_bg_copy = (View) findViewById(R.id.pin_bg_copy);
@@ -82,10 +86,22 @@ public class iphone_6_7_8_plus___38_activity extends Activity {
 		honda_dream = (TextView) findViewById(R.id.honda_dream);
 		ph_m_th__ng_c_h__ek1 = (TextView) findViewById(R.id.ph_m_th__ng_c_h__ek1);
 		b__c_n_v_o__inh__c_n_thay_to_n_b___ru_t_b_nh_xe = (TextView) findViewById(R.id.b__c_n_v_o__inh__c_n_thay_to_n_b___ru_t_b_nh_xe);
-	
-		
+
+
 		//custom code goes here
-	
+
+		// im here
+		group_127.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___38_activity.this,
+								iphone_6_7_8_plus___39_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+
 	}
 }
 	

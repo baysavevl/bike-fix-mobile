@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -29,6 +30,9 @@ public class iphone_6_7_8_plus___41_activity extends Activity {
 
 	
 	private View _bg__iphone_6_7_8_plus___41;
+	private View group_136;
+	private View group_132;
+	private View group_131;
 	private ImageView staticmap;
 	private View pin_bg_copy_2;
 	private View pin_bg_copy;
@@ -53,6 +57,9 @@ public class iphone_6_7_8_plus___41_activity extends Activity {
 
 		
 		_bg__iphone_6_7_8_plus___41 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___41);
+		group_136 = (View) findViewById(R.id.group_136);
+		group_132 = (View) findViewById(R.id.group_132);
+		group_131 = (View) findViewById(R.id.group_131);
 		staticmap = (ImageView) findViewById(R.id.staticmap);
 		pin_bg_copy_2 = (View) findViewById(R.id.pin_bg_copy_2);
 		pin_bg_copy = (View) findViewById(R.id.pin_bg_copy);
@@ -71,7 +78,38 @@ public class iphone_6_7_8_plus___41_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+
+		// turn on
+		group_136.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___41_activity.this,
+								iphone_6_7_8_plus___40_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		// history
+		group_132.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___41_activity.this,
+								iphone_6_7_8_plus___27_activity.class);
+				startActivity(intent);
+			}
+		});
+		// account
+		group_131.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___41_activity.this,
+								iphone_6_7_8_plus___42_activity.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
 	

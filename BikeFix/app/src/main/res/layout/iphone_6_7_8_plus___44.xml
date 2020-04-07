@@ -159,7 +159,9 @@
 					android:layout_marginTop="0dp"
 					android:layout_width="183dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_phone_number____string"
+					android:inputType="number"
+					android:background="@android:color/transparent"
+					android:hint="@string/enter_phone_number____string"
 					 />
 
 			</RelativeLayout>
@@ -203,7 +205,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_your_name___"
+				<EditText android:id="@+id/enter_your_name___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
@@ -211,7 +213,9 @@
 					android:layout_marginTop="0dp"
 					android:layout_width="148dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_your_name____string"
+					android:inputType="text"
+					android:background="@android:color/transparent"
+					android:hint="@string/enter_your_name____string"
 					 />
 
 			</RelativeLayout>
@@ -263,7 +267,9 @@
 					android:layout_marginTop="2dp"
 					android:layout_width="106dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_email____string"
+					android:background="@android:color/transparent"
+					android:inputType="textEmailAddress"
+					android:hint="@string/enter_email____string"
 					 />
 
 			</RelativeLayout>
@@ -345,7 +351,9 @@
 					android:layout_marginTop="2dp"
 					android:layout_width="124dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_address____string"
+					android:background="@android:color/transparent"
+					android:hint="@string/enter_address____string"
+					android:inputType="text"
 					 />
 
 			</RelativeLayout>
@@ -579,7 +587,7 @@
 					android:fontFamily="Gadugi"
 					android:textSize="17sp"
 					android:textColor="@color/address__color"
-					android:layout_marginLeft="0dp"
+					android:layout_marginLeft="17dp"
 					android:layout_marginTop="3dp"
 					android:layout_width="70dp"
 					android:layout_height="25dp"
@@ -590,7 +598,7 @@
 					android:fontFamily="Gadugi"
 					android:textSize="17sp"
 					android:textColor="@color/city___color"
-					android:layout_marginLeft="43dp"
+					android:layout_marginLeft="60dp"
 					android:layout_marginTop="3dp"
 					android:layout_width="70dp"
 					android:layout_height="25dp"
@@ -678,7 +686,7 @@
 					android:fontFamily="Gadugi"
 					android:textSize="17sp"
 					android:textColor="@color/address__color"
-					android:layout_marginLeft="0dp"
+					android:layout_marginLeft="2dp"
 					android:layout_marginTop="8dp"
 					android:layout_width="107dp"
 					android:layout_height="25dp"
@@ -689,7 +697,7 @@
 					android:fontFamily="Gadugi"
 					android:textSize="17sp"
 					android:textColor="@color/city___color"
-					android:layout_marginLeft="97dp"
+					android:layout_marginLeft="99dp"
 					android:layout_marginTop="8dp"
 					android:layout_width="107dp"
 					android:layout_height="25dp"
@@ -794,7 +802,9 @@
 					android:layout_marginTop="0dp"
 					android:layout_width="138dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_password____string"
+					android:background="@android:color/transparent"
+					android:hint="@string/enter_password____string"
+					android:inputType="textPassword"
 					 />
 
 			</RelativeLayout>
@@ -850,7 +860,9 @@
 					android:layout_marginTop="0dp"
 					android:layout_width="160dp"
 					android:layout_height="22dp"
-					android:text="@string/enter_re_password____string"
+					android:background="@android:color/transparent"
+					android:hint="@string/enter_re_password____string"
+					android:inputType="textPassword"
 					 />
 
 			</RelativeLayout>

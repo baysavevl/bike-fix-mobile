@@ -18,9 +18,11 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -81,7 +83,17 @@ public class iphone_6_7_8_plus___36_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+
+		final Handler handler = new Handler();
+		handler.postDelayed(new Runnable() {
+			public void run() {
+				// TODO: Your application init goes here.
+				Intent intent = new Intent(iphone_6_7_8_plus___36_activity.this,
+						iphone_6_7_8_plus___37_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		}, 1000);
 	}
 }
 	
