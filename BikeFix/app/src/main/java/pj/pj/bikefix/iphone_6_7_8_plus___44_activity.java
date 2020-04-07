@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -60,6 +61,8 @@ public class iphone_6_7_8_plus___44_activity extends Activity {
 	private ImageView polygon_3_ek1;
 	private TextView district__;
 	private View rectangle_16_ek2;
+	private View group_170;
+	private View group_173;
 	private TextView phu_huu;
 	private ImageView polygon_3_ek2;
 	private TextView ____ward__;
@@ -86,6 +89,9 @@ public class iphone_6_7_8_plus___44_activity extends Activity {
 		setContentView(R.layout.iphone_6_7_8_plus___44);
 
 		
+		_bg__iphone_6_7_8_plus___44 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___44);
+		group_170 = (View) findViewById(R.id.group_170);
+		group_173 = (View) findViewById(R.id.group_173);
 		_bg__iphone_6_7_8_plus___44 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___44);
 		path_17 = (ImageView) findViewById(R.id.path_17);
 		rectangle_16 = (View) findViewById(R.id.rectangle_16);
@@ -139,7 +145,27 @@ public class iphone_6_7_8_plus___44_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+
+		// signup
+		group_170.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___44_activity.this,
+								iphone_6_7_8_plus___1_activity.class);
+				startActivity(intent);
+			}
+		});
+		// login
+		group_173.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___44_activity.this,
+								iphone_6_7_8_plus___1_activity.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
 	

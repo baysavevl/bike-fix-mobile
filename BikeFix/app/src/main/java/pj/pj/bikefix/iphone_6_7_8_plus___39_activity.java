@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -29,6 +30,7 @@ public class iphone_6_7_8_plus___39_activity extends Activity {
 
 	
 	private View _bg__iphone_6_7_8_plus___39;
+	private View group_127;
 	private ImageView path_14;
 	private TextView fixing_done;
 	private View rectangle_37;
@@ -51,6 +53,7 @@ public class iphone_6_7_8_plus___39_activity extends Activity {
 
 		
 		_bg__iphone_6_7_8_plus___39 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___39);
+		group_127 = (View) findViewById(R.id.group_127);
 		path_14 = (ImageView) findViewById(R.id.path_14);
 		fixing_done = (TextView) findViewById(R.id.fixing_done);
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
@@ -67,7 +70,18 @@ public class iphone_6_7_8_plus___39_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+
+		// done
+		group_127.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___39_activity.this,
+								iphone_6_7_8_plus___40_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
 	}
 }
 	
