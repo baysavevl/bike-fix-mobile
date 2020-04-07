@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -45,6 +46,7 @@ public class iphone_6_7_8_plus___7_activity extends Activity {
 	private TextView account;
 	private TextView edit;
 	private View rectangle_12;
+	private View group_48;
 	private ImageView group_4;
 	private ImageView layer_0_copy_2;
 	private ImageView req_un;
@@ -73,13 +75,49 @@ public class iphone_6_7_8_plus___7_activity extends Activity {
 		account = (TextView) findViewById(R.id.account);
 		edit = (TextView) findViewById(R.id.edit);
 		rectangle_12 = (View) findViewById(R.id.rectangle_12);
+		group_48 = (View) findViewById(R.id.group_48);
 		group_4 = (ImageView) findViewById(R.id.group_4);
 		layer_0_copy_2 = (ImageView) findViewById(R.id.layer_0_copy_2);
 		req_un = (ImageView) findViewById(R.id.req_un);
 	
 		
 		//custom code goes here
-	
+
+		// back
+		group_48.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+		// vehicle
+		group_4.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___7_activity.this,
+								iphone_6_7_8_plus___10_activity.class);
+				startActivity(intent);
+			}
+		});
+		// request
+		req_un.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___7_activity.this,
+								iphone_6_7_8_plus___2_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		// account
+		layer_0_copy_2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 }
 	

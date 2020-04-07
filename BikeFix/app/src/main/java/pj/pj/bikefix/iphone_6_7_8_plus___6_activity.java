@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -35,6 +36,8 @@ public class iphone_6_7_8_plus___6_activity extends Activity {
 	private TextView sign_up_as_customer;
 	private ImageView moto2_no;
 	private View rectangle_86;
+	private View group_98;
+	private View group_135;
 	private TextView sign_up_as_mechanic;
 	private ImageView machenic_2;
 
@@ -52,12 +55,37 @@ public class iphone_6_7_8_plus___6_activity extends Activity {
 		sign_up_as_customer = (TextView) findViewById(R.id.sign_up_as_customer);
 		moto2_no = (ImageView) findViewById(R.id.moto2_no);
 		rectangle_86 = (View) findViewById(R.id.rectangle_86);
+		group_98 = (View) findViewById(R.id.group_98);
+		group_135 = (View) findViewById(R.id.group_135);
 		sign_up_as_mechanic = (TextView) findViewById(R.id.sign_up_as_mechanic);
 		machenic_2 = (ImageView) findViewById(R.id.machenic_2);
 	
 		
 		//custom code goes here
-	
+
+
+		// as customer
+		group_98.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___6_activity.this,
+								iphone_6_7_8_plus___19_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		// as mechanic
+		group_135.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___6_activity.this,
+								iphone_6_7_8_plus___44_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
 	}
 }
 	

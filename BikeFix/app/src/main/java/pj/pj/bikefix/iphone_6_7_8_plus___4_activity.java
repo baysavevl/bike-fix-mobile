@@ -18,9 +18,11 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -52,6 +54,7 @@ public class iphone_6_7_8_plus___4_activity extends Activity {
 	private View rectangle_42;
 	private TextView cancel;
 	private View rectangle_36;
+	private View group_133;
 	private TextView _56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh;
 	private ImageView icons8_place_marker_52px;
 
@@ -86,12 +89,35 @@ public class iphone_6_7_8_plus___4_activity extends Activity {
 		rectangle_42 = (View) findViewById(R.id.rectangle_42);
 		cancel = (TextView) findViewById(R.id.cancel);
 		rectangle_36 = (View) findViewById(R.id.rectangle_36);
+		group_133 = (View) findViewById(R.id.group_133);
 		_56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh = (TextView) findViewById(R.id._56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh);
 		icons8_place_marker_52px = (ImageView) findViewById(R.id.icons8_place_marker_52px);
 	
 		
 		//custom code goes here
-	
+
+		// cancel
+		group_133.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___4_activity.this,
+								iphone_6_7_8_plus___2_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		// found
+		final Handler handler = new Handler();
+		handler.postDelayed(new Runnable() {
+			public void run() {
+				// TODO: Your application init goes here.
+				Intent intent = new Intent(iphone_6_7_8_plus___4_activity.this,
+						iphone_6_7_8_plus___14_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		}, 10000);
 	}
 }
 	

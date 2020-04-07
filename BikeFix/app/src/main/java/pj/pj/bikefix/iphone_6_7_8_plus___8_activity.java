@@ -18,10 +18,15 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -47,7 +52,30 @@ public class iphone_6_7_8_plus___8_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+		// rotate icon
+		Runnable runnable = new Runnable() {
+			@Override
+			public void run() {
+				icons8_process_200px.animate().rotationBy(360).withEndAction(this)
+						.setDuration(3000).setInterpolator(new LinearInterpolator()).start();
+			}
+		};
+		icons8_process_200px.animate().rotationBy(360).withEndAction(runnable)
+				.setDuration(3000).setInterpolator(new LinearInterpolator()).start();
+
+		// rating
+		final Handler handler = new Handler();
+		handler.postDelayed(new Runnable() {
+			public void run() {
+				// TODO: Your application init goes here.
+				Intent intent = new Intent(iphone_6_7_8_plus___8_activity.this,
+						iphone_6_7_8_plus___13_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		}, 10000);
+
+
 	}
 }
 	
