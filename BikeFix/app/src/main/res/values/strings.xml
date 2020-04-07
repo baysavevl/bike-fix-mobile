@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <string name="app_name">BikeFix</string>
+
+    <!-- iphone_6_7_8_plus___1 strings -->
+
+    <string name="ek_img_content">ExportKit Image</string>
+
+    <string name="password_ek1_string">Password</string>
+
+    <string name="email_or_phone_string">Email or phone</string>
+
+    <string name="login_string">LOGIN</string>
+
+    <string name="bikefix_string">BikeFix</string>
+
+    <string name="not_a_member_yet__string">Not a member yet?</string>
+
+    <string name="register_string">SIGN UP</string>
+
+    <string name="sign_up_with_facebook_string">SIGN UP WITH FACEBOOK</string>
+
+    <string name="or_string">or</string>
+
+    <!-- iphone_6_7_8_plus___2 strings -->
+
+    <string name="_56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh_string">56 Le Van Viet, Tang Nhon Phu, Quan 9, Ho Chi Minh</string>
+
+    <!-- iphone_6_7_8_plus___3 strings -->
+
+    <string name="emily_daniels_string">Pham Thi Ngoc Ha</string>
+
+
+    <string name="emily_daniels_gmail__string">
+
+        <u>Edit account</u>
+
+    </string>
+
+    <string name="location_string">Log out</string>
+
+    <string name="location_ek1_string">Settings</string>
+
+    <string name="location_ek2_string">History</string>
+
+    <!-- iphone_6_7_8_plus___4 strings -->
+
+    <string name="cancel_string">CANCEL</string>
+
+
+    <!-- iphone_6_7_8_plus___5 strings -->
+
+    <string name="login_as_customer_string">Login as Customer</string>
+
+    <string name="login_as_mechanic_string">Login as Mechanic</string>
+
+    <!-- iphone_6_7_8_plus___6 strings -->
+    <string name="sign_up_as_customer_string">Sign up as Customer</string>
+    <string name="sign_up_as_mechanic_string">Sign up as Mechanic</string>
+
+    <!-- iphone_6_7_8_plus___7 strings -->
+    <string name="pozna___poland_string">Tp Ho chi Minh</string>
+    <string name="phone___string">Phone: </string>
+    <string name="__84_963_192_405_string">+84 963 192 405</string>
+    <string name="email__string">Email:</string>
+    <string name="my_google_gmail_com_string">my.google@gmail.com</string>
+    <string name="address__string">Address:</string>
+    <string name="s__12_____ng_d1__ph__ng_8___g__v_p__tp_h__ch__minh__string">"So 12, duong D1, Phuong 8, Go Vap, Tp Ho Chi Minh "</string>
+    <string name="account_string">Account</string>
+    <string name="edit_string">Edit</string>
+
+    <!-- iphone_6_7_8_plus___8 strings -->
+    <string name="during_repair_your_vehicle____string">During repair your vehicle...</string>
+
+    <!-- iphone_6_7_8_plus___9 strings -->
+    <string name="request_now_string">Request Now</string>
+    <string name="message_string">Message</string>
+    <string name="__ki_n_c_a_b_n_string"> kin ca bn</string>
+    <string name="more_string"><u>more</u></string>
+    <string name="___thay_linh_ki_n_string">+ Thay linh kien</string>
+    <string name="___thay_nh_t_string">+ Thay nhot</string>
+    <string name="___s_a___ng_c__string">+ Sua dong co</string>
+    <string name="___d_n____can_string">+ Dan de-can</string>
+    <string name="services__string">Services:</string>
+    <string name="_43_people_string">43 people</string>
+    <string name="_4_2_string">4.2</string>
+    <string name="rating_string">Rating</string>
+    <string name="y_n_anh_string">Yen Anh</string>
+    <string name="_12_05_2019_string">12/05/2019</string>
+    <string name="c_a_h_ng_r_t_nhi_t_t_nh_____string">Cua hang rat nhiet tinh :))</string>
+    <string name="honda_vi_t_th_i_string">Honda Viet Thai</string>
+    <string name="address__111_nguy_n_duy_trinh__b_nh_tr_ng_tay__qu_n_2__h__ch__minh__string">"Address: 111 Nguyen Duy Trinh, Binh Trung Tay, Quan 2, Ho Chi Minh "</string>
+
+    <!-- iphone_6_7_8_plus___10 strings -->
+    <string name="honda_wave_rsx_string">Honda Wave RSX</string>
+    <string name="my_dad_string">My Dad</string>
+    <string name="my_brother_string">My brother</string>
+    <string name="yamaha_sirius__string">Yamaha Sirius </string>
+    <string name="my_vehicles_string">My Vehicles</string>
+    <string name="me_string">Me</string>
+    <string name="yamaha_sirius__ek1_string">Yamaha Sirius </string>
+
+    <!-- iphone_6_7_8_plus___11 strings -->
+    <string name="your_problem_string">Your problem</string>
+    <string name="submit_string">SUBMIT</string>
+    <string name="describe_problems_by_text____string">Describe problems by text...</string>
+    <string name="__damaged_wheel_string"> Damaged wheel</string>
+    <string name="brake_string">Brake</string>
+    <string name="out_of_fuel_string">Out of fuel</string>
+    <string name="engine_stopped_string">Engine stopped</string>
+    <string name="other_ek1_string">Other</string>
+    <string name="chains_string">Chains</string>
+    <string name="shrug_string">Shrug</string>
+    <string name="select_your_vehicle__string">Select your vehicle:</string>
+    <string name="yamaha_120_string">Yamaha 120</string>
+    <string name="add_vehicle_string"><u>Add vehicle</u></string>
+    <string name="describe_problems_by_photos_here_string">Describe problems by photosHERE</string>
+    <string name="your_problems__string">56 Le Van Viet, Tang Nhon Phu, Quan 9, Ho Chi Minh</string>
+
+    <!-- iphone_6_7_8_plus___12 strings -->
+    <string name="change_location_string">Change location</string>
+    <string name="done_string">Done</string>
+    <string name="meet_me_at____string">Meet me at...</string>
+    <string name="_122_3_tran_hung_dao__qu_n_10__tp__hcm_string">122/3 Tran Hung Dao, Quan 10, Tp. HCM</string>
+    <string name="_37_vo_van_viet__qu_n_9__tp__hcm_string">37 Vo Van Viet, Quan 9, Tp. HCM</string>
+    <string name="toa_nha_the_blues__so_9__duong_linh__phuong_11__q__go____string">Toa nha THE BLUES, so 9, Duong Linh, Phuong 11, Q. Go...</string>
+
+    <!-- iphone_6_7_8_plus___13 strings -->
+    <string name="damaged_wheel_string">Damaged wheel</string>
+    <string name="quality_evalution__string">Quality evalution!</string>
+    <string name="your_comment_about_this_service____string">Your comment about this service...</string>
+
+    <!-- iphone_6_7_8_plus___14 strings -->
+    <string name="store_staff_is_coming_string">store staff is coming</string>
+    <string name="license_plate__59h1__12345_string">License plate: <b>59H1- 12345</b></string>
+    <string name="found__string">Found!</string>
+    <string name="about_1_5_km_string">About 1.5 km</string>
+
+    <!-- iphone_6_7_8_plus___15 strings -->
+    <string name="_1_string">1</string>
+    <string name="_27_12_2019___8_25_am_string">27/12/2019 - 8:25 AM</string>
+    <string name="place__37_vo_van_viet__qu_n_9__tp__hcm_string">Place: 37 Vo Van Viet, Quan 9, Tp. HCM</string>
+    <string name="my_history_string">My History</string>
+    <string name="_2_string">2</string>
+    <string name="honda_wave_rsx_ek1_string">Honda Wave RSX</string>
+    <string name="_23_12_2019___12_45_am_string">23/12/2019 - 12:45 AM</string>
+    <string name="place__toa_nha_the_blues__so_9__duong_linh______string">Place: Toa nha THE BLUES, so 9, Duong Linh, ...</string>
+    <string name="_3_string">3</string>
+    <string name="yamaha_sirius_string">Yamaha Sirius</string>
+    <string name="_4_5_2019___3_45_pm_string">4/5/2019 - 3:45 PM</string>
+    <string name="place__122_3_tran_hung_dao__qu_n_10__tp__hcm_string">Place: 122/3 Tran Hung Dao, Quan 10, Tp. HCM</string>
+
+    <!-- iphone_6_7_8_plus___16 strings -->
+    <string name="remove_string">Remove</string>
+    <string name="update_string">Update</string>
+    <string name="name__my_dad_string">Name: My Dad</string>
+    <string name="license_plate__59h1___12345_string">License plate: 59H1 - 12345</string>
+    <string name="detail_string">Detail</string>
+    <string name="brand__honda_wave_rsx_string">Brand: Honda Wave RSX</string>
+    <string name="year_of_manufacture__2016_string">Year of manufacture: 2016</string>
+    <string name="color__cyan_string">Color: Cyan</string>
+
+    <!-- iphone_6_7_8_plus___17 strings -->
+
+    <!-- iphone_6_7_8_plus___18 strings -->
+    <string name="_2019_string">2019</string>
+    <string name="year_of_manufacture____string">Year of manufacture: </string>
+    <string name="enter_value____string">Enter value...</string>
+    <string name="license_plate___string">License plate:</string>
+    <string name="black_string">Black</string>
+    <string name="color___string">Color:</string>
+    <string name="brand___string">Brand:</string>
+    <string name="enter_brand_name____string">Enter brand name...</string>
+    <string name="name___string">Name:</string>
+    <string name="enter_your_vehicle_name____string">Enter your vehicle name...</string>
+    <string name="new_vehicle_string">New vehicle</string>
+    <string name="import_your_vehicle_photo_string">Import your vehicle photo</string>
+
+    <!-- iphone_6_7_8_plus___19 strings -->
+    <string name="vietnam_string">Vietnam</string>
+    <string name="country___string">Country:</string>
+    <string name="ho_chi_minh_city_string">Ho Chi Minh City</string>
+    <string name="city___string">City:</string>
+    <string name="enter_phone_number____string">Enter phone number...</string>
+    <string name="full_name___string">Full name:</string>
+    <string name="enter_your_name____string">Enter your name...</string>
+    <string name="enter_email____string">Enter email...</string>
+    <string name="sign_up_string">SIGN UP</string>
+    <string name="enter_address____string">Enter address...</string>
+    <string name="i_accept_the_terms_in_license_agreement_with_the_policy_string">I accept the terms in license agreement with\nthe policy</string>
+    <string name="password___string">Password:</string>
+    <string name="enter_password____string">Enter password...</string>
+    <string name="re_password___string">Re-password:</string>
+    <string name="enter_re_password____string">Enter re-password...</string>
+
+    <!-- iphone_6_7_8_plus___20 strings -->
+    <string name="_64_people_string">64 people</string>
+    <string name="_3_7_string">3.7</string>
+    <string name="rating__string">Rating:</string>
+    <string name="nguy_n_hi_u_string">Nguyen Hieu</string>
+    <string name="_06_03_2020_string">06/03/2020</string>
+    <string name="s_a_r_t_nhanh__string">Sua rat nhanh!</string>
+    <string name="honda_d_ng_string">Honda Dung</string>
+    <string name="address___211_nguy_n_th_i_h_c__qu_n_1_string">Address:</string>
+    <string name="address___211_nguy_n_th_i_h_c__qu_n_1_string_2">211 Nguyen Thai Hoc, Quan 1</string>
+
+    <!-- iphone_6_7_8_plus___21 strings -->
+    <string name="about_1_2_km_string">About 1,2 km</string>
+
+    <!-- iphone_6_7_8_plus___22 strings -->
+    <string name="about_1_km_string">About 1 km</string>
+    <string name="_56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh__string">56 Le Van Viet, Tang Nhon Phu, Quan 9, Ho Chi Minh</string>
+
+    <!-- iphone_6_7_8_plus___23 strings -->
+    <string name="about_700_m_string">About 700 m</string>
+
+    <!-- iphone_6_7_8_plus___24 strings -->
+    <string name="about_300_m_string">About 300 m</string>
+
+    <!-- iphone_6_7_8_plus___25 strings -->
+    <string name="less_10_m_string">Less 10 m</string>
+
+    <!-- iphone_6_7_8_plus___26 strings -->
+
+    <!-- iphone_6_7_8_plus___27 strings -->
+    <string name="th_ng_b_nh_xe_string">Thung banh xe</string>
+    <string name="_2_days_ago_string">2 days ago</string>
+    <string name="honda_dream_string">Honda Dream</string>
+    <string name="_0_5_km_string">0.5 km</string>
+    <string name="ch_t_m_y_string">Chet may</string>
+    <string name="_4_days_ago_string">4 days ago</string>
+    <string name="yamaha_string">Yamaha</string>
+    <string name="_70_l__v_n_vi_t__qu_n_9__tp__h__ch__minh_string">70 Le Van Viet, Quan 9, Tp. Ho Chi Minh</string>
+    <string name="_0_5_km_ek1_string">0.5 km</string>
+    <string name="history_string">History</string>
+
+    <!-- iphone_6_7_8_plus___28 strings -->
+    <string name="_1_3km_string">1.2km</string>
+    <string name="new_request_string">New Request</string>
+    <string name="accept_string">ACCEPT</string>
+    <string name="ignore_string">IGNORE</string>
+    <string name="_51a___1256_string">51A - 1256</string>
+    <string name="ph_m_th__ng_c_h__string">Pham Thi Ngoc Ha</string>
+    <string name="b__c_n_v_o__inh__c_n_thay_to_n_b___ru_t_b_nh_xe_string">Bi can vao dinh. Can thay toan bo ruot banh xe</string>
+
+    <!-- iphone_6_7_8_plus___29 strings -->
+    <string name="ph_m_th__ng_c_h__ek1_string">Pham Thi Ngoc Ha</string>
+
+    <!-- iphone_6_7_8_plus___30 strings -->
+
+    <!-- iphone_6_7_8_plus___31 strings -->
+    <string name="services_available__string">Services available:</string>
+    <string name="accepted_vehicles__string">Accepted vehicles:</string>
+    <string name="brand__string">Brand:</string>
+    <string name="for_motorbike__string">For motorbike:</string>
+    <string name="honda_string">Honda</string>
+    <string name="suzuki_string">Suzuki</string>
+    <string name="sym_string">SYM</string>
+    <string name="chevrolet_string">Chevrolet</string>
+    <string name="for_car__string">For car:</string>
+    <string name="ford_string">Ford</string>
+    <string name="toyota_string">Toyota</string>
+    <string name="honda_ek1_string">Honda</string>
+    <string name="other_ek2_string">Other</string>
+    <string name="hyundai_string">Hyundai</string>
+    <string name="register_services_string">Register Services</string>
+    <string name="next_string">NEXT</string>
+
+    <!-- iphone_6_7_8_plus___32 strings -->
+    <string name="service_prices_string">Service Prices</string>
+    <string name="price_table_string">Price Table</string>
+    <string name="service_string">Service</string>
+    <string name="price_string">Price</string>
+
+    <!-- iphone_6_7_8_plus___33 strings -->
+    <string name="_51a___1256_ek1_string">51A - 1256</string>
+    <string name="th_ng_b_nh_xe_ek1_string">Thung banh xe</string>
+    <string name="honda_dream_ek1_string">Honda Dream</string>
+    <string name="ph_m_th__ng_c_h__ek2_string">Pham Thi Ngoc Ha</string>
+    <string name="b__c_n_v_o__inh__c_n_thay_to_n_b___ru_t_b_nh_xe_ek1_string">Bi can vao dinh. Can thay toan bo ruot banh xe</string>
+
+    <!-- iphone_6_7_8_plus___34 strings -->
+
+    <!-- iphone_6_7_8_plus___35 strings -->
+
+    <!-- iphone_6_7_8_plus___36 strings -->
+
+    <!-- iphone_6_7_8_plus___37 strings -->
+    <string name="i_m_here_string">IM HERE</string>
+
+    <!-- iphone_6_7_8_plus___38 strings -->
+
+    <!-- iphone_6_7_8_plus___39 strings -->
+    <string name="fixing_done_string">Fixing Done</string>
+    <string name="in_processing_string">In-processing</string>
+
+    <!-- iphone_6_7_8_plus___40 strings -->
+    <string name="status_string">Available</string>
+
+    <!-- iphone_6_7_8_plus___41 strings -->
+    <string name="status2_string">Unavailable</string>
+
+    <!-- iphone_6_7_8_plus___42 strings -->
+
+    <!-- iphone_6_7_8_plus___43 strings -->
+    <string name="mechanic_name___string">Mechanic name:</string>
+    <string name="email___string">Email:</string>
+    <string name="district_9_string">District 9</string>
+    <string name="district___string">District:</string>
+    <string name="phu_huu_string">Phu Huu</string>
+    <string name="____ward___string">   Ward:</string>
+    <string name="enterprise_registration_certificate___string">Enterprise Registration Certificate:</string>
+    <string name="identification_card___string">Identification Card:</string>
+    <string name="store_image___string">Store Image:</string>
+
+
+    <!-- iphone_6_7_8_plus___44 strings -->
+    <string name="address___string">Address:</string>
+</resources>

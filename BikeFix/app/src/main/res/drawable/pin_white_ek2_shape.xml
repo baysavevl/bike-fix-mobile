@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- pin_white_ek2 from your PSD file. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval" >
+	<solid android:color="@color/_bg__iphone_6_7_8_plus___4_color" />
+</shape>
+

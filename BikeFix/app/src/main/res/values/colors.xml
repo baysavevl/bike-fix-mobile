@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iphone_6_7_8_plus___1 colors -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="_bg__iphone_6_7_8_plus___1_color">#ffffff</color>
+    <color name="password_ek1_color">#707070</color>
+    <color name="rectangle_5_color">#f39625</color>
+    <color name="login_color">#ffffff</color>
+    <color name="bikefix_color">#00accf</color>
+    <color name="not_a_member_yet__color">#9b99a9</color>
+    <color name="register_color">#f39625</color>
+    <color name="rectangle_6_color">#4a75cc</color>
+
+    <!-- iphone_6_7_8_plus___2 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___2_color">#ffffff</color>
+    <color name="pin_bg_copy_2_color">#f5a623</color>
+    <color name="pin_bg_ek1_color">#989898</color>
+    <color name="_56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh_color">#707070</color>
+
+    <!-- iphone_6_7_8_plus___3 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___3_color">#ffffff</color>
+    <color name="emily_daniels_color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___4 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___4_color">#ffffff</color>
+    <color name="rectangle_42_color">#f39625</color>
+    <color name="cancel_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___5 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___5_color">#ffffff</color>
+    <color name="login_as_customer_color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___6 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___6_color">#ffffff</color>
+    <color name="sign_up_as_customer_color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___7 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___7_color">#ffffff</color>
+    <color name="pozna___poland_color">#9b99a9</color>
+    <color name="phone___color">#272727</color>
+    <color name="rectangle_37_color">#f39625</color>
+    <color name="account_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___8 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___8_color">#ffffff</color>
+    <color name="during_repair_your_vehicle____color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___9 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___9_color">#ffffff</color>
+    <color name="rectangle_23_color">#989494</color>
+    <color name="rectangle_20_color">#60cb64</color>
+    <color name="request_now_color">#ffffff</color>
+    <color name="rectangle_19_color">#e1f9fe</color>
+    <color name="message_color">#00accf</color>
+    <color name="__ki_n_c_a_b_n_color">#1c6bf5</color>
+    <color name="more_color">#f39625</color>
+    <color name="___thay_linh_ki_n_color">#000000</color>
+    <color name="_43_people_color">#5e5e5e</color>
+    <color name="_4_2_color">#e5a21b</color>
+    <color name="rectangle_27_color">#bfbfbf</color>
+    <color name="rectangle_28_color">#fcb040</color>
+    <color name="y_n_anh_color">#202121</color>
+    <color name="_12_05_2019_color">#70aae5</color>
+    <color name="c_a_h_ng_r_t_nhi_t_t_nh_____color">#2a2b2b</color>
+    <color name="rectangle_21_color">#f5f5f5</color>
+
+    <!-- iphone_6_7_8_plus___10 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___10_color">#ffffff</color>
+    <color name="rectangle_49_color">#000000</color>
+    <color name="honda_wave_rsx_color">#272727</color>
+    <color name="my_vehicles_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___11 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___11_color">#ffffff</color>
+    <color name="your_problem_color">#ffffff</color>
+    <color name="describe_problems_by_text____color">#363636</color>
+    <color name="__damaged_wheel_color">#000000</color>
+    <color name="select_your_vehicle__color">#35343d</color>
+    <color name="add_vehicle_color">#f39625</color>
+    <color name="describe_problems_by_photos_here_color">#4d4b49</color>
+
+    <!-- iphone_6_7_8_plus___12 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___12_color">#ffffff</color>
+    <color name="bg_color">#ececec</color>
+    <color name="change_location_color">#ffffff</color>
+    <color name="meet_me_at____color">#989898</color>
+
+    <!-- iphone_6_7_8_plus___13 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___13_color">#ffffff</color>
+    <color name="damaged_wheel_color">#707070</color>
+    <color name="rectangle_44_color">#000000</color>
+    <color name="quality_evalution__color">#000000</color>
+    <color name="rectangle_47_color">#f39625</color>
+
+    <!-- iphone_6_7_8_plus___14 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___14_color">#ffffff</color>
+    <color name="rectangle_33_color">#b5b4b4</color>
+    <color name="store_staff_is_coming_color">#000000</color>
+    <color name="found__color">#00accf</color>
+
+    <!-- iphone_6_7_8_plus___15 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___15_color">#ffffff</color>
+    <color name="_1_color">#000000</color>
+    <color name="my_history_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___16 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___16_color">#ffffff</color>
+    <color name="remove_color">#ffffff</color>
+    <color name="name__my_dad_color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___17 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___17_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___18 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___18_color">#ffffff</color>
+    <color name="submit_color">#ffffff</color>
+    <color name="_2019_color">#4d4d4d</color>
+    <color name="year_of_manufacture____color">#000000</color>
+    <color name="enter_value____color">#989898</color>
+    <color name="license_plate___color">#ff0000</color>
+    <color name="import_your_vehicle_photo_color">#b7b7b7</color>
+
+    <!-- iphone_6_7_8_plus___19 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___19_color">#ffffff</color>
+    <color name="vietnam_color">#4d4d4d</color>
+    <color name="country___color">#ff0000</color>
+    <color name="enter_phone_number____color">#989898</color>
+    <color name="email__color">#000000</color>
+    <color name="sign_up_color">#ffffff</color>
+    <color name="i_accept_the_terms_in_license_agreement_with_the_policy_color">#00accf</color>
+
+    <!-- iphone_6_7_8_plus___20 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___20_color">#ffffff</color>
+    <color name="_64_people_color">#5e5e5e</color>
+    <color name="_3_7_color">#e5a21b</color>
+    <color name="nguy_n_hi_u_color">#202121</color>
+    <color name="_06_03_2020_color">#70aae5</color>
+    <color name="s_a_r_t_nhanh__color">#2a2b2b</color>
+    <color name="honda_d_ng_color">#00accf</color>
+
+    <!-- iphone_6_7_8_plus___21 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___21_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___22 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___22_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___23 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___23_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___24 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___24_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___25 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___25_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___26 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___26_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___27 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___27_color">#ffffff</color>
+    <color name="rectangle_55_color">#e9e9e9</color>
+    <color name="th_ng_b_nh_xe_color">#f39625</color>
+    <color name="_2_days_ago_color">#000000</color>
+    <color name="_0_5_km_color">#999999</color>
+    <color name="history_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___28 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___28_color">#ffffff</color>
+    <color name="_1_3km_color">#00accf</color>
+    <color name="new_request_color">#ffffff</color>
+    <color name="rectangle_58_color">#60cb64</color>
+    <color name="rectangle_57_color">#f64b4b</color>
+    <color name="_51a___1256_color">#000000</color>
+    <color name="honda_dream_color">#008fac</color>
+
+    <!-- iphone_6_7_8_plus___29 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___29_color">#ffffff</color>
+    <color name="ph_m_th__ng_c_h__color">#ff0000</color>
+    <color name="accept_color">#ffffff</color>
+    <color name="rectangle_59_color">#000000</color>
+    <color name="rectangle_60_color">#f39625</color>
+
+    <!-- iphone_6_7_8_plus___30 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___30_color">#ffffff</color>
+    <color name="ph_m_th__ng_c_h__ek1_color">#ff0000</color>
+
+    <!-- iphone_6_7_8_plus___31 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___31_color">#ffffff</color>
+    <color name="services_available__color">#000000</color>
+    <color name="register_services_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___32 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___32_color">#ffffff</color>
+    <color name="service_prices_color">#ffffff</color>
+    <color name="price_table_color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___33 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___33_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___34 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___34_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___35 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___35_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___36 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___36_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___37 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___37_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___38 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___38_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___39 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___39_color">#ffffff</color>
+    <color name="fixing_done_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___40 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___40_color">#ffffff</color>
+    <color name="status_color">#00accf</color>
+    <color name="rectangle_85_color">#16e11d</color>
+
+    <!-- iphone_6_7_8_plus___41 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___41_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___42 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___42_color">#ffffff</color>
+
+    <!-- iphone_6_7_8_plus___43 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___43_color">#ffffff</color>
+    <color name="ho_chi_minh_city_color">#4d4d4d</color>
+    <color name="city___color">#ff0000</color>
+    <color name="address__color">#000000</color>
+
+    <!-- iphone_6_7_8_plus___44 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___44_color">#ffffff</color>
+</resources>

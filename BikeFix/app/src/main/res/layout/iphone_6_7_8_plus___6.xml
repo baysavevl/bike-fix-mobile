@@ -1,0 +1,142 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		iphone_6_7_8_plus___6
+	 *	@date 		0
+	 *	@title 		iPhone 6/7/8 Plus  6
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_6_7_8_plus___6" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="736dp" >
+
+			<View android:id="@+id/_bg__iphone_6_7_8_plus___6"
+				android:background="@drawable/_bg__iphone_6_7_8_plus___6_shape"
+				 android:layout_marginLeft="0dp"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="414dp"
+				android:layout_height="736dp" />
+
+			<ImageView android:id="@+id/bg_wait"
+				android:src="@drawable/bg_wait"
+				android:contentDescription="bg_wait"
+				 android:layout_marginLeft="0dp"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="539dp"
+				android:layout_width="414dp"
+				android:layout_height="196dp" />
+
+
+			<RelativeLayout android:id="@+id/group_97"
+				android:layout_marginTop="212dp"
+				android:layout_marginStart="26dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/rectangle_53"
+					android:background="@drawable/rectangle_53_shape_6"
+					 android:layout_marginLeft="0dp"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="361dp"
+					android:layout_height="259dp" />
+
+
+				<RelativeLayout android:id="@+id/group_98"
+					android:layout_marginTop="53dp"
+					android:layout_marginStart="27dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_87"
+						android:background="@drawable/rectangle_87_shape_6"
+						 android:alpha="0.44307601451874"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="304dp"
+						android:layout_height="65dp" />
+
+					<TextView android:id="@+id/sign_up_as_customer"
+						android:fontFamily="Gadugi"
+						android:textSize="20sp"
+						android:textColor="@color/sign_up_as_customer_color"
+						android:layout_marginLeft="99dp"
+						android:layout_marginTop="19dp"
+						android:layout_width="197dp"
+						android:layout_height="31dp"
+						android:text="@string/sign_up_as_customer_string"
+						 />
+
+					<ImageView android:id="@+id/moto2_no"
+						android:src="@drawable/moto2_no"
+						android:contentDescription="moto2_no"
+						 android:layout_marginLeft="22dp"
+						 android:layout_marginStart="22dp"
+						android:layout_marginTop="10dp"
+						android:layout_width="61dp"
+						android:layout_height="43dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/group_135"
+					android:layout_marginTop="139dp"
+					android:layout_marginStart="27dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_86"
+						android:background="@drawable/rectangle_86_shape_6"
+						 android:alpha="0.44307601451874"
+						 android:layout_marginLeft="0dp"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="304dp"
+						android:layout_height="65dp" />
+
+					<TextView android:id="@+id/sign_up_as_mechanic"
+						android:fontFamily="Gadugi"
+						android:textSize="20sp"
+						android:textColor="@color/sign_up_as_customer_color"
+						android:layout_marginLeft="99dp"
+						android:layout_marginTop="17dp"
+						android:layout_width="197dp"
+						android:layout_height="31dp"
+						android:text="@string/sign_up_as_mechanic_string"
+						 />
+
+					<ImageView android:id="@+id/machenic_2"
+						android:src="@drawable/machenic_2_5"
+						android:contentDescription="machenic_2_5"
+						 android:layout_marginLeft="28dp"
+						 android:layout_marginStart="28dp"
+						android:layout_marginTop="5dp"
+						android:layout_width="58dp"
+						android:layout_height="58dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

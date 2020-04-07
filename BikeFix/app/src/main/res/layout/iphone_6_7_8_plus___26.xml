@@ -1,0 +1,67 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		iphone_6_7_8_plus___26
+	 *	@date 		0
+	 *	@title 		iPhone 6/7/8 Plus  26
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.2.9.xd
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/iphone_6_7_8_plus___26" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="736dp" >
+
+			<View
+				android:id="@+id/_bg__iphone_6_7_8_plus___26"
+				android:layout_width="414dp"
+				android:layout_height="736dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginLeft="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__iphone_6_7_8_plus___26_shape" />
+
+			<ImageView android:id="@+id/icons8_process_200px"
+				android:src="@drawable/icons8_process_200px"
+				android:contentDescription="icons8_process_200px"
+				 android:layout_marginLeft="148dp"
+				 android:layout_marginStart="148dp"
+				android:layout_marginTop="249dp"
+				android:layout_width="119dp"
+				android:layout_height="119dp" />
+
+			<TextView android:id="@+id/during_repair_your_vehicle___"
+				android:fontFamily="Montserrat-Regular"
+				android:textSize="21sp"
+				android:textColor="@color/during_repair_your_vehicle____color"
+				android:layout_marginLeft="64.5dp"
+				android:layout_marginTop="402.5dp"
+				android:layout_width="289dp"
+				android:layout_height="27dp"
+				android:text="@string/during_repair_your_vehicle____string"
+				 />
+
+			<ImageView android:id="@+id/background__2_"
+				android:src="@drawable/background__2_"
+				android:contentDescription="background__2_"
+				 android:layout_marginLeft="0dp"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="539dp"
+				android:layout_width="414dp"
+				android:layout_height="196dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
