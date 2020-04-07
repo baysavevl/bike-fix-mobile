@@ -131,10 +131,6 @@
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:label="@string/app_name"/>
         <activity
-        android:name=".iphone_6_7_8_plus___30_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
         android:name=".iphone_6_7_8_plus___31_activity"
         android:configChanges="orientation|keyboardHidden|screenSize"
         android:label="@string/app_name"/>

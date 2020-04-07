@@ -45,6 +45,7 @@ public class iphone_6_7_8_plus___27_activity extends Activity {
 	private TextView _0_5_km_ek1;
 	private ImageView nopath___copy__5_;
 	private View rectangle_37;
+	private View group_48;
 	private ImageView line_6;
 	private ImageView path_1;
 	private TextView history;
@@ -73,13 +74,19 @@ public class iphone_6_7_8_plus___27_activity extends Activity {
 		_0_5_km_ek1 = (TextView) findViewById(R.id._0_5_km_ek1);
 		nopath___copy__5_ = (ImageView) findViewById(R.id.nopath___copy__5_);
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
+		group_48 = (View) findViewById(R.id.group_48);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
 		history = (TextView) findViewById(R.id.history);
 	
 		
 		//custom code goes here
-	
+		group_48.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
 	}
 }
 	

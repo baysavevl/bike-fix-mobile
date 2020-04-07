@@ -13,11 +13,16 @@
 	 *	@generator 	Export Kit v1.2.9.xd
 	 *
 	 */
-	
 
+// Not use
+// Not use
+// Not use
+// Not use
+// Not use
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -75,6 +80,7 @@ public class iphone_6_7_8_plus___31_activity extends Activity {
 	private ImageView path_9;
 	private ImageView path_8;
 	private View rectangle_76;
+	private View group_125;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -130,10 +136,11 @@ public class iphone_6_7_8_plus___31_activity extends Activity {
 		path_9 = (ImageView) findViewById(R.id.path_9);
 		path_8 = (ImageView) findViewById(R.id.path_8);
 		rectangle_76 = (View) findViewById(R.id.rectangle_76);
-	
+		group_125 = (View) findViewById(R.id.group_125);
+
 		
 		//custom code goes here
-	
+
 	}
 }
 	
