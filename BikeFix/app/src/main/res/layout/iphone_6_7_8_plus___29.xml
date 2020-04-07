@@ -159,7 +159,7 @@
 				<TextView android:id="@+id/ph_m_th__ng_c_h_"
 					android:fontFamily="Gadugi"
 					android:textSize="18sp"
-					android:textColor="@color/ph_m_th__ng_c_h__color"
+					android:textColor="@color/address__color"
 					android:layout_marginLeft="132dp"
 					android:layout_marginTop="22dp"
 					android:layout_width="163dp"
@@ -412,18 +412,18 @@
 					android:layout_height="wrap_content"
 					>
 
-					<ImageView android:id="@+id/nopath___copy__8_"
-						android:src="@drawable/nopath___copy__8_"
-						android:contentDescription="nopath___copy__8_"
+					<ImageView android:id="@+id/nopath___copy__9_"
+						android:src="@drawable/nopath___copy__9_"
+						android:contentDescription="nopath___copy__9_"
 						 android:layout_marginLeft="0dp"
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="0dp"
 						android:layout_width="261dp"
 						android:layout_height="370dp" />
 
-					<ImageView android:id="@+id/nopath___copy__9_"
-						android:src="@drawable/nopath___copy__9_"
-						android:contentDescription="nopath___copy__9_"
+					<ImageView android:id="@+id/nopath___copy__8_"
+						android:src="@drawable/nopath___copy__8_"
+						android:contentDescription="nopath___copy__8_"
 						 android:layout_marginLeft="343dp"
 						 android:layout_marginStart="343dp"
 						android:layout_marginTop="62dp"
