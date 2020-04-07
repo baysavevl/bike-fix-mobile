@@ -151,7 +151,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_phone_number___"
+				<EditText android:id="@+id/enter_phone_number___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
@@ -259,7 +259,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_email___"
+				<EditText android:id="@+id/enter_email___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
@@ -343,7 +343,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_address___"
+				<EditText android:id="@+id/enter_address___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
@@ -794,7 +794,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_password___"
+				<EditText android:id="@+id/enter_password___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
@@ -852,7 +852,7 @@
 					android:text="*"
 					 />
 
-				<TextView android:id="@+id/enter_re_password___"
+				<EditText android:id="@+id/enter_re_password___"
 					android:fontFamily="Montserrat"
 					android:textSize="16sp"
 					android:textColor="@color/enter_phone_number____color"
