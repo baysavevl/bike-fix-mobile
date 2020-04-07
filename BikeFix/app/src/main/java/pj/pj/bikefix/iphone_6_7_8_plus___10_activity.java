@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -50,6 +51,8 @@ public class iphone_6_7_8_plus___10_activity extends Activity {
 	private TextView my_vehicles;
 	private ImageView icons8_add_60px;
 	private View rectangle_34_ek2;
+	private View group_48;
+	private View group_43;
 	private ImageView path_12;
 	private ImageView nopath___copy__5__ek1;
 	private TextView me;
@@ -84,6 +87,8 @@ public class iphone_6_7_8_plus___10_activity extends Activity {
 		my_vehicles = (TextView) findViewById(R.id.my_vehicles);
 		icons8_add_60px = (ImageView) findViewById(R.id.icons8_add_60px);
 		rectangle_34_ek2 = (View) findViewById(R.id.rectangle_34_ek2);
+		group_48 = (View) findViewById(R.id.group_48);
+		group_43 = (View) findViewById(R.id.group_43);
 		path_12 = (ImageView) findViewById(R.id.path_12);
 		nopath___copy__5__ek1 = (ImageView) findViewById(R.id.nopath___copy__5__ek1);
 		me = (TextView) findViewById(R.id.me);
@@ -91,7 +96,54 @@ public class iphone_6_7_8_plus___10_activity extends Activity {
 	
 		
 		//custom code goes here
-	
+
+		// back
+		group_48.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+		// detail vehicle
+		group_43.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___10_activity.this,
+								iphone_6_7_8_plus___16_activity.class);
+				startActivity(intent);
+			}
+		});
+		// request
+		req_un.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___10_activity.this,
+								iphone_6_7_8_plus___2_activity.class);
+				startActivity(intent);
+			}
+		});
+		// add vehicle
+		icons8_add_60px.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___10_activity.this,
+								iphone_6_7_8_plus___18_activity.class);
+				startActivity(intent);
+			}
+		});
+		// account
+		group_2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___10_activity.this,
+								iphone_6_7_8_plus___3_activity.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
 	

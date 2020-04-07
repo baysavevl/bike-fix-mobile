@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -77,6 +78,8 @@ public class iphone_6_7_8_plus___9_activity extends Activity {
 	private ImageView line_6;
 	private ImageView path_1;
 	private View rectangle_52;
+	private View group_48;
+	private View group_28;
 	private TextView address__111_nguy_n_duy_trinh__b_nh_tr_ng_tay__qu_n_2__h__ch__minh_;
 
 	@Override
@@ -135,11 +138,30 @@ public class iphone_6_7_8_plus___9_activity extends Activity {
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
 		rectangle_52 = (View) findViewById(R.id.rectangle_52);
+		group_48 = (View) findViewById(R.id.group_48);
+		group_28 = (View) findViewById(R.id.group_28);
 		address__111_nguy_n_duy_trinh__b_nh_tr_ng_tay__qu_n_2__h__ch__minh_ = (TextView) findViewById(R.id.address__111_nguy_n_duy_trinh__b_nh_tr_ng_tay__qu_n_2__h__ch__minh_);
 	
 		
 		//custom code goes here
-	
+
+		// back
+		group_48.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				finish();
+			}
+		});
+		// request
+		group_28.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___9_activity.this,
+								iphone_6_7_8_plus___11_activity.class);
+				startActivity(intent);
+			}
+		});
 	}
 }
 	

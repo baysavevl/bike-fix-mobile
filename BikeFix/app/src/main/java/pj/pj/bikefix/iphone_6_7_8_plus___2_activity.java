@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -36,6 +37,7 @@ public class iphone_6_7_8_plus___2_activity extends Activity {
 	private View pin_bg;
 	private View pin_bg_ek1;
 	private View pin_white;
+	private View pin_copy;
 	private View pin_bg_ek2;
 	private View pin_white_ek1;
 	private ImageView machenic_2;
@@ -44,6 +46,7 @@ public class iphone_6_7_8_plus___2_activity extends Activity {
 	private TextView _56_l__v_n_vi_t__t_ng_nh_n_ph___qu_n_9__h__ch__minh;
 	private ImageView my_place;
 	private View rectangle_12;
+	private View group_46;
 	private ImageView group_2;
 	private ImageView group_4;
 	private ImageView req;
@@ -74,10 +77,72 @@ public class iphone_6_7_8_plus___2_activity extends Activity {
 		group_2 = (ImageView) findViewById(R.id.group_2);
 		group_4 = (ImageView) findViewById(R.id.group_4);
 		req = (ImageView) findViewById(R.id.req);
-	
+		group_46 = (View) findViewById(R.id.group_46);
+		pin_copy = (View) findViewById(R.id.pin_copy);
+
 		
 		//custom code goes here
-	
+		// select location
+		group_46.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___12_activity.class);
+				startActivity(intent);
+			}
+		});
+		// select online mechanic
+		machenic_2_ek1.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___9_activity.class);
+				startActivity(intent);
+			}
+		});
+		// select offline mechanic
+		pin_copy.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___20_activity.class);
+				startActivity(intent);
+			}
+		});
+		// vehicle
+		group_4.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___10_activity.class);
+				startActivity(intent);
+			}
+		});
+		// request
+		req.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___11_activity.class);
+				startActivity(intent);
+			}
+		});
+		// account
+		group_2.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___2_activity.this,
+								iphone_6_7_8_plus___3_activity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
 	}
 }
 	
