@@ -67,7 +67,7 @@
 
             <TextView
                 android:id="@+id/name__a"
-                android:layout_width="61dp"
+                android:layout_width="wrap_content"
                 android:layout_height="25dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="0dp"
@@ -76,15 +76,16 @@
                 android:textColor="@color/license_plate___color"
                 android:textSize="17sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/enter_your_vehicle_name___"
-                android:layout_width="207dp"
+                android:layout_width="match_parent"
                 android:layout_height="22dp"
                 android:layout_marginLeft="74dp"
                 android:layout_marginTop="0dp"
                 android:fontFamily="Montserrat"
-                android:text="@string/enter_your_vehicle_name____string"
-                android:textColor="@color/enter_value____color"
+                android:background="@null"
+                android:hint="@string/enter_your_vehicle_name____string"
+                android:textColorHint="@color/enter_value____color"
                 android:textSize="16sp" />
 
         </RelativeLayout>
@@ -128,15 +129,16 @@
                 android:textColor="@color/license_plate___color"
                 android:textSize="17sp" />
 
-            <TextView
+            <EditText
                 android:id="@+id/enter_brand_name___"
-                android:layout_width="161dp"
+                android:layout_width="match_parent"
                 android:layout_height="22dp"
                 android:layout_marginLeft="72dp"
                 android:layout_marginTop="2dp"
                 android:fontFamily="Montserrat"
-                android:text="@string/enter_brand_name____string"
-                android:textColor="@color/enter_value____color"
+                android:background="@null"
+                android:hint="@string/enter_brand_name____string"
+                android:textColorHint="@color/enter_value____color"
                 android:textSize="16sp" />
 
         </RelativeLayout>
@@ -242,15 +244,16 @@
                 android:contentDescription="line_13"
                 android:src="@drawable/line_13" />
 
-            <TextView
+            <EditText
                 android:id="@+id/enter_value___"
-                android:layout_width="104dp"
+                android:layout_width="match_parent"
                 android:layout_height="22dp"
                 android:layout_marginLeft="121dp"
                 android:layout_marginTop="2dp"
                 android:fontFamily="Montserrat"
-                android:text="@string/enter_value____string"
-                android:textColor="@color/enter_value____color"
+                android:background="@null"
+                android:hint="@string/enter_value____string"
+                android:textColorHint="@color/enter_value____color"
                 android:textSize="16sp" />
 
             <TextView
