@@ -123,7 +123,7 @@
             android:textAllCaps="false"
             android:textColor="@color/remove_color"
             android:textSize="22sp"
-            android:textStyle="bold" android:onClick="clickUpdate" />
+            android:textStyle="bold" android:onClick="update" />
 
 
         <Button
@@ -137,7 +137,8 @@
             android:textAllCaps="false"
             android:textColor="@color/remove_color"
             android:textSize="22sp"
-            android:textStyle="bold" android:onClick="clickRemove"  />
+            android:textStyle="bold"
+            android:onClick="remove"  />
 
     </LinearLayout>
 
