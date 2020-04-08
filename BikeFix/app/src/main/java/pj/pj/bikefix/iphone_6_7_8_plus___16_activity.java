@@ -81,6 +81,27 @@ public class iphone_6_7_8_plus___16_activity extends AppCompatActivity {
 		Intent intent =new Intent(this,iphone_6_7_8_plus___10_activity.class);
 		startActivity(intent);
 	}
+
+    public void back(View view) {
+		Intent intent =
+				new Intent(this,
+						iphone_6_7_8_plus___10_activity.class);
+		startActivity(intent);
+    }
+
+	public void update(View view) {
+		Intent intent =
+				new Intent(this,
+						iphone_6_7_8_plus___18_activity.class);
+		startActivity(intent);
+	}
+
+	public void remove(View view) {
+		Intent intent =
+				new Intent(this,
+						iphone_6_7_8_plus___10_activity.class);
+		startActivity(intent);
+	}
 }
 	
 	
