@@ -17,7 +17,7 @@
 
 package pj.pj.bikefix;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-public class iphone_6_7_8_plus___17_activity extends Activity {
+public class iphone_6_7_8_plus___17_activity extends AppCompatActivity {
 
 	
 	private View _bg__iphone_6_7_8_plus___17;
