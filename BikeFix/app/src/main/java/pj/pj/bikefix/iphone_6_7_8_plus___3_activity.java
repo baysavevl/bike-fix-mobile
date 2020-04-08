@@ -122,7 +122,7 @@ import androidx.appcompat.app.AppCompatActivity;
 			public void onClick(View v) {
 				Intent intent =
 						new Intent(iphone_6_7_8_plus___3_activity.this,
-								iphone_6_7_8_plus___11_activity.class);
+								iphone_6_7_8_plus___2_activity.class);
 				startActivity(intent);
 				finish();
 			}

@@ -284,7 +284,7 @@
             android:layout_marginTop="16dp"
             android:background="@null"
             android:contentDescription="layer_0_copy_2"
-            android:src="@drawable/layer_0_copy_2" android:onClick="clickRequest" />
+            android:src="@drawable/layer_0_copy_2" android:onClick="clickAccount" />
 
         <ImageButton
             android:id="@+id/req_un"
@@ -294,7 +294,8 @@
             android:layout_marginTop="18dp"
             android:background="@null"
             android:contentDescription="req_un"
-            android:src="@drawable/req_un" android:onClick="clickAccount" />
+            android:src="@drawable/req_un"
+            android:onClick="clickRequest" />
 
     </RelativeLayout>
 
