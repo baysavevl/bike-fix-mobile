@@ -103,7 +103,7 @@ import androidx.appcompat.app.AppCompatActivity;
 						new Intent(iphone_6_7_8_plus___3_activity.this,
 								iphone_6_7_8_plus___1_activity.class);
 				startActivity(intent);
-				finish();
+				finishAffinity();
 			}
 		});
 		// vehicle

@@ -95,7 +95,7 @@ public class iphone_6_7_8_plus___15_activity extends AppCompatActivity {
 	
 		
 		//custom code goes here
-	
+
 	}
 }
 	

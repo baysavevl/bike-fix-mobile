@@ -87,8 +87,9 @@ public class iphone_6_7_8_plus___25_activity extends AppCompatActivity {
 			public void run() {
 				// TODO: Your application init goes here.
 				Intent intent = new Intent(iphone_6_7_8_plus___25_activity.this,
-						iphone_6_7_8_plus___6_activity.class);
+						iphone_6_7_8_plus___8_activity.class);
 				startActivity(intent);
+				overridePendingTransition(0, 0);
 				finish();
 			}
 		}, 1000);

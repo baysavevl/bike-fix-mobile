@@ -86,6 +86,7 @@ public class iphone_6_7_8_plus___42_activity extends AppCompatActivity {
 						new Intent(iphone_6_7_8_plus___42_activity.this,
 								iphone_6_7_8_plus___1_activity.class);
 				startActivity(intent);
+				finishAffinity();
 			}
 		});
 	}

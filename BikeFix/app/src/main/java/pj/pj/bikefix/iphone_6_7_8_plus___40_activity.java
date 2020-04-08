@@ -46,6 +46,7 @@ public class iphone_6_7_8_plus___40_activity extends AppCompatActivity {
 	private TextView account;
 	private ImageView icons8_user_male_60px;
 	private View rectangle_83_ek1;
+	private View myself;
 	private TextView history;
 	private ImageView icons8_time_machine_60px;
 
@@ -73,6 +74,7 @@ public class iphone_6_7_8_plus___40_activity extends AppCompatActivity {
 		account = (TextView) findViewById(R.id.account);
 		icons8_user_male_60px = (ImageView) findViewById(R.id.icons8_user_male_60px);
 		rectangle_83_ek1 = (View) findViewById(R.id.rectangle_83_ek1);
+		myself = (View) findViewById(R.id.myself);
 		history = (TextView) findViewById(R.id.history);
 		icons8_time_machine_60px = (ImageView) findViewById(R.id.icons8_time_machine_60px);
 	
@@ -87,6 +89,7 @@ public class iphone_6_7_8_plus___40_activity extends AppCompatActivity {
 						new Intent(iphone_6_7_8_plus___40_activity.this,
 								iphone_6_7_8_plus___41_activity.class);
 				startActivity(intent);
+				overridePendingTransition(0, 0);
 				finish();
 			}
 		});
@@ -107,6 +110,16 @@ public class iphone_6_7_8_plus___40_activity extends AppCompatActivity {
 				Intent intent =
 						new Intent(iphone_6_7_8_plus___40_activity.this,
 								iphone_6_7_8_plus___42_activity.class);
+				startActivity(intent);
+			}
+		});
+		// call
+		myself.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent =
+						new Intent(iphone_6_7_8_plus___40_activity.this,
+								iphone_6_7_8_plus___28_activity.class);
 				startActivity(intent);
 			}
 		});

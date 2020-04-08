@@ -113,7 +113,7 @@ public class iphone_6_7_8_plus___28_activity extends AppCompatActivity {
 				Intent intent =
 						new Intent(iphone_6_7_8_plus___28_activity.this,
 								iphone_6_7_8_plus___29_activity.class);
-				intent.putExtra("img", 2);
+				intent.putExtra("img", 1);
 				startActivity(intent);
 			}
 		});
