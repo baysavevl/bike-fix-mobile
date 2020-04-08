@@ -18,6 +18,8 @@
 package pj.pj.bikefix;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -27,9 +29,6 @@ import android.widget.TextView;
 
 public class iphone_6_7_8_plus___16_activity extends AppCompatActivity {
 
-	
-	private View _bg__iphone_6_7_8_plus___16;
-	private ImageView path_15;
 	private TextView remove;
 	private View rectangle_19;
 	private TextView update;
@@ -53,9 +52,7 @@ public class iphone_6_7_8_plus___16_activity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___16);
 
-		
-		_bg__iphone_6_7_8_plus___16 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___16);
-		path_15 = (ImageView) findViewById(R.id.path_15);
+
 		remove = (TextView) findViewById(R.id.remove);
 		rectangle_19 = (View) findViewById(R.id.rectangle_19);
 		update = (TextView) findViewById(R.id.update);
@@ -67,7 +64,6 @@ public class iphone_6_7_8_plus___16_activity extends AppCompatActivity {
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
-		detail = (TextView) findViewById(R.id.detail);
 		nopath___copy__3_ = (ImageView) findViewById(R.id.nopath___copy__3_);
 		brand__honda_wave_rsx = (TextView) findViewById(R.id.brand__honda_wave_rsx);
 		year_of_manufacture__2016 = (TextView) findViewById(R.id.year_of_manufacture__2016);
@@ -76,6 +72,14 @@ public class iphone_6_7_8_plus___16_activity extends AppCompatActivity {
 		
 		//custom code goes here
 	
+	}
+
+	public void clickUpdate(View view) {
+	}
+
+	public void clickRemove(View view) {
+		Intent intent =new Intent(this,iphone_6_7_8_plus___10_activity.class);
+		startActivity(intent);
 	}
 }
 	
