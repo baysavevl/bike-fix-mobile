@@ -49,8 +49,7 @@
         <activity
             android:name=".iphone_6_7_8_plus___11_activity"
             android:label="@string/your_problem_string"
-            android:parentActivityName=".iphone_6_7_8_plus___2_activity">
-        </activity>
+            android:parentActivityName=".iphone_6_7_8_plus___2_activity"></activity>
         <activity
             android:name=".iphone_6_7_8_plus___12_activity"
 
