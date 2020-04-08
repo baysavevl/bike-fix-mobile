@@ -1,171 +1,144 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".iphone_6_7_8_plus___16_activity" android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iphone_6_7_8_plus___16_activity">
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/nopath___copy__3_"
+            android:layout_width="414dp"
+            android:layout_height="245dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:contentDescription="nopath___copy__3_"
+            android:src="@drawable/nopath___copy__3_16" />
 
         <RelativeLayout
-            android:id="@+id/content_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/nopath___copy__3_"
-                android:layout_width="414dp"
-                android:layout_height="245dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="0dp"
-                android:contentDescription="nopath___copy__3_"
-                android:src="@drawable/nopath___copy__3_16" />
-            <LinearLayout
-                android:id="@+id/group_29"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="670dp"
-                android:orientation="horizontal">
-
-
-                <RelativeLayout
-                    android:id="@+id/group_27"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:id="@+id/rectangle_19"
-                        android:layout_width="match_parent"
-                        android:layout_height="81dp"
-                        android:background="@color/colorPrimary" />
-
-                    <TextView
-                        android:id="@+id/update"
-                        android:layout_width="89dp"
-                        android:layout_height="31dp"
-                        android:layout_marginLeft="62dp"
-                        android:layout_marginTop="18dp"
-                        android:fontFamily="Montserrat"
-                        android:text="@string/update_string"
-                        android:textColor="@color/remove_color"
-                        android:textSize="22sp"
-                        android:textStyle="bold" />
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:id="@+id/group_28"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp"
-                    android:layout_weight="1">
-
-                    <ImageButton
-                        android:id="@+id/remove"
-                        android:layout_width="match_parent"
-                        android:layout_height="81dp"
-                        android:background="#f00" />
-
-                    <TextView
-                        android:layout_width="99dp"
-                        android:layout_height="31dp"
-                        android:layout_marginLeft="57dp"
-                        android:layout_marginTop="18dp"
-                        android:fontFamily="Montserrat"
-                        android:text="@string/remove_string"
-                        android:textColor="@color/remove_color"
-                        android:textSize="22sp"
-                        android:textStyle="bold" />
-
-                </RelativeLayout>
-
-
-            </LinearLayout>
-
-            <RelativeLayout
-                android:id="@+id/rectangle_24"
-                android:layout_width="376dp"
-                android:layout_height="55dp"
-                android:layout_marginStart="22dp"
-                android:layout_marginLeft="22dp"
-                android:layout_marginTop="280dp">
-
-                <TextView
-                    android:id="@+id/name__my_dad"
-                    android:layout_width="168dp"
-                    android:layout_height="37dp"
-                    android:layout_marginLeft="10dp"
-                    android:fontFamily="Gadugi"
-                    android:text="@string/name__my_dad_string"
-                    android:textColor="@color/name__my_dad_color"
-                    android:textSize="24sp" />
-
-                <TextView
-                    android:id="@+id/brand__honda_wave_rsx"
-                    android:layout_width="208dp"
-                    android:layout_height="28dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="30dp"
-                    android:fontFamily="Gadugi"
-                    android:text="@string/brand__honda_wave_rsx_string"
-                    android:textColor="@color/name__my_dad_color"
-                    android:textSize="18sp" />
-            </RelativeLayout>
-
-
-            <ImageView
-                android:id="@+id/line_3"
-                android:layout_width="380dp"
-                android:layout_height="1dp"
-                android:layout_marginStart="17.5dp"
-                android:layout_marginLeft="17.5dp"
-                android:layout_marginTop="525dp"
-                android:contentDescription="line_3"
-                android:src="@drawable/line_3" />
-
-            <ImageView
-                android:id="@+id/line_4"
-                android:layout_width="380dp"
-                android:layout_height="1dp"
-                android:layout_marginStart="17.5dp"
-                android:layout_marginLeft="17.5dp"
-                android:layout_marginTop="360dp"
-                android:src="@drawable/line_4" />
+            android:id="@+id/rectangle_24"
+            android:layout_width="376dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="280dp">
 
             <TextView
-                android:id="@+id/license_plate__59h1___12345"
-                android:layout_width="218dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="36dp"
-                android:layout_marginTop="449dp"
+                android:id="@+id/name__my_dad"
+                android:layout_width="168dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
                 android:fontFamily="Gadugi"
-                android:text="@string/license_plate__59h1___12345_string"
+                android:text="@string/name__my_dad_string"
                 android:textColor="@color/name__my_dad_color"
-                android:textSize="17sp" />
-
-
+                android:textSize="24sp" />
 
             <TextView
-                android:id="@+id/color__cyan"
-                android:layout_width="93dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="36dp"
-                android:layout_marginTop="427dp"
+                android:id="@+id/brand__honda_wave_rsx"
+                android:layout_width="208dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
                 android:fontFamily="Gadugi"
-                android:text="@string/color__cyan_string"
+                android:text="@string/brand__honda_wave_rsx_string"
                 android:textColor="@color/name__my_dad_color"
-                android:textSize="17sp" />
-
-            <TextView
-                android:id="@+id/year_of_manufacture__2016"
-                android:layout_width="204dp"
-                android:layout_height="25dp"
-                android:layout_marginLeft="36dp"
-                android:layout_marginTop="473dp"
-                android:fontFamily="Gadugi"
-                android:text="@string/year_of_manufacture__2016_string"
-                android:textColor="@color/name__my_dad_color"
-                android:textSize="17sp" />
-
+                android:textSize="18sp" />
         </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/line_4"
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="17.5dp"
+            android:layout_marginLeft="17.5dp"
+            android:layout_marginTop="360dp"
+            android:src="@drawable/line_4" />
+
+
+        <TextView
+            android:id="@+id/license_plate__59h1___12345"
+            android:layout_width="218dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="400dp"
+            android:fontFamily="Gadugi"
+            android:text="@string/license_plate__59h1___12345_string"
+            android:textColor="@color/name__my_dad_color"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/color__cyan"
+            android:layout_width="93dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="375dp"
+            android:fontFamily="Gadugi"
+            android:text="@string/color__cyan_string"
+            android:textColor="@color/name__my_dad_color"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/line_3"
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="17.5dp"
+            android:layout_marginTop="470dp"
+            android:contentDescription="line_3"
+            android:src="@drawable/line_3" />
+
+        <TextView
+            android:id="@+id/year_of_manufacture__2016"
+            android:layout_width="204dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="427dp"
+            android:fontFamily="Gadugi"
+            android:text="@string/year_of_manufacture__2016_string"
+            android:textColor="@color/name__my_dad_color"
+            android:textSize="17sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/group_29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:fontFamily="Montserrat"
+            android:text="@string/update_string"
+            android:textAllCaps="false"
+            android:textColor="@color/remove_color"
+            android:textSize="22sp"
+            android:textStyle="bold" android:onClick="clickUpdate" />
+
+
+        <Button
+            android:id="@+id/remove"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#f00"
+            android:fontFamily="Montserrat"
+            android:text="@string/remove_string"
+            android:textAllCaps="false"
+            android:textColor="@color/remove_color"
+            android:textSize="22sp"
+            android:textStyle="bold" android:onClick="clickRemove"  />
+
+    </LinearLayout>
 
 </LinearLayout>
