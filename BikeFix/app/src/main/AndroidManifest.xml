@@ -10,178 +10,168 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-        android:name=".iphone_6_7_8_plus___1_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___1_activity"
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___2_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___2_activity"
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___3_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___3_activity"
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___4_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___4_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___5_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___5_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___6_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___6_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___7_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___7_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___8_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___8_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___9_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___9_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___10_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___10_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___11_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___12_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___13_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___14_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___15_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___16_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
-        <activity
-        android:name=".iphone_6_7_8_plus___17_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name">
+            android:name=".iphone_6_7_8_plus___11_activity"
+            android:label="@string/your_problem_string"
+            android:parentActivityName=".iphone_6_7_8_plus___2_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-        android:name=".iphone_6_7_8_plus___18_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___12_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___19_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___13_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___20_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___14_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___21_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___15_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___22_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___16_activity"
+
+            android:label="@string/app_name" />
+        <!-- default start 17 -->
         <activity
-        android:name=".iphone_6_7_8_plus___23_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___17_activity"
+
+            android:label="@string/app_name"></activity>
         <activity
-        android:name=".iphone_6_7_8_plus___24_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___18_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___25_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___19_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___26_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___20_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___27_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___21_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___28_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___22_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___29_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___23_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___31_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___24_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___32_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___25_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___33_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___27_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___34_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___28_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___35_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___29_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___36_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___31_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___37_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___33_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___38_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___34_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___39_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___35_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___40_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___36_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___41_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___37_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___42_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___38_activity"
+
+            android:label="@string/app_name" />
         <activity
-        android:name=".iphone_6_7_8_plus___44_activity"
-        android:configChanges="orientation|keyboardHidden|screenSize"
-        android:label="@string/app_name"/>
+            android:name=".iphone_6_7_8_plus___39_activity"
+
+            android:label="@string/app_name" />
+        <activity
+            android:name=".iphone_6_7_8_plus___40_activity"
+
+            android:label="@string/app_name" />
+        <activity
+            android:name=".iphone_6_7_8_plus___41_activity"
+
+            android:label="@string/app_name" />
+        <activity
+            android:name=".iphone_6_7_8_plus___42_activity"
+
+            android:label="@string/app_name" />
+        <activity
+            android:name=".iphone_6_7_8_plus___44_activity"
+
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
