@@ -45,7 +45,8 @@ public class iphone_6_7_8_plus___18_activity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
-		
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.iphone_6_7_8_plus___18);
 		_bg__iphone_6_7_8_plus___18 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___18);
 		rectangle_19 = (View) findViewById(R.id.rectangle_19);
 		submit = (TextView) findViewById(R.id.submit);
@@ -74,10 +75,10 @@ public class iphone_6_7_8_plus___18_activity extends AppCompatActivity {
 		path_1 = (ImageView) findViewById(R.id.path_1);
 		new_vehicle = (TextView) findViewById(R.id.new_vehicle);
 		import_your_vehicle_photo = (TextView) findViewById(R.id.import_your_vehicle_photo);
-	
-		
+
+
 		//custom code goes here
-	
+
 	}
 
     public void clickToBack(View view) {
