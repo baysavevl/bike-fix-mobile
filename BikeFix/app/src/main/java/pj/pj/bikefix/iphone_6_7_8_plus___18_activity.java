@@ -1,5 +1,6 @@
 package pj.pj.bikefix;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -46,10 +47,8 @@ public class iphone_6_7_8_plus___18_activity extends AppCompatActivity {
         setContentView(R.layout.iphone_6_7_8_plus___18);
 
 
-        _bg__iphone_6_7_8_plus___18 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___18);
         rectangle_19 = (View) findViewById(R.id.rectangle_19);
         submit = (TextView) findViewById(R.id.submit);
-        path_3 = (ImageView) findViewById(R.id.path_3);
         rectangle_16 = (View) findViewById(R.id.rectangle_16);
         _2019 = (TextView) findViewById(R.id._2019);
         polygon_3 = (ImageView) findViewById(R.id.polygon_3);
@@ -72,12 +71,16 @@ public class iphone_6_7_8_plus___18_activity extends AppCompatActivity {
         rectangle_37 = (View) findViewById(R.id.rectangle_37);
         line_6 = (ImageView) findViewById(R.id.line_6);
         path_1 = (ImageView) findViewById(R.id.path_1);
-        new_vehicle = (TextView) findViewById(R.id.new_vehicle);
         import_your_vehicle_photo = (TextView) findViewById(R.id.import_your_vehicle_photo);
 
 
         //custom code goes here
 
+    }
+
+    public void clickSubmit(View view) {
+        Intent intent=new Intent(this,iphone_6_7_8_plus___10_activity.class);
+        startActivity(intent);
     }
 }
 	
