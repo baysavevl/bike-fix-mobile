@@ -116,7 +116,7 @@
     <string name="yamaha_120_string">Yamaha 120</string>
     <string name="add_vehicle_string"><u>Add vehicle</u></string>
     <string name="describe_problems_by_photos_here_string">Describe problems by photosHERE</string>
-    <string name="your_problems__string">56 Le Van Viet, Tang Nhon Phu, Quan 9, Ho Chi Minh</string>
+    <string name="your_problems__string">Your problems:</string>
 
     <!-- iphone_6_7_8_plus___12 strings -->
     <string name="change_location_string">Change location</string>

@@ -17,7 +17,9 @@
 
 package pj.pj.bikefix;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -32,7 +34,6 @@ public class iphone_6_7_8_plus___11_activity extends Activity {
 	private View rectangle_37;
 	private ImageView line_6;
 	private ImageView path_1;
-	private TextView your_problem;
 	private View rectangle_38;
 	private TextView submit;
 	private View rectangle_39;
@@ -81,16 +82,11 @@ public class iphone_6_7_8_plus___11_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___11);
 
-		
-		_bg__iphone_6_7_8_plus___11 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___11);
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
-		your_problem = (TextView) findViewById(R.id.your_problem);
-		rectangle_38 = (View) findViewById(R.id.rectangle_38);
 		submit = (TextView) findViewById(R.id.submit);
 		rectangle_39 = (View) findViewById(R.id.rectangle_39);
-		describe_problems_by_text___ = (TextView) findViewById(R.id.describe_problems_by_text___);
 		rectangle_41 = (View) findViewById(R.id.rectangle_41);
 		rectangle_40 = (View) findViewById(R.id.rectangle_40);
 		__damaged_wheel = (TextView) findViewById(R.id.__damaged_wheel);
@@ -132,6 +128,11 @@ public class iphone_6_7_8_plus___11_activity extends Activity {
 		
 		//custom code goes here
 	
+	}
+
+	public void clickSubmit(View view) {
+		Intent intent=new Intent(this,iphone_6_7_8_plus___4_activity.class);
+		startActivity(intent);
 	}
 }
 	
