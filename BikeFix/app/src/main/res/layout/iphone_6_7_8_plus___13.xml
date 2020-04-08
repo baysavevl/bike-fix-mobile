@@ -15,15 +15,6 @@
             android:layout_height="736dp">
 
             <View
-                android:id="@+id/_bg__iphone_6_7_8_plus___13"
-                android:layout_width="414dp"
-                android:layout_height="736dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__iphone_6_7_8_plus___13_shape" />
-
-            <View
                 android:id="@+id/rectangle_31"
                 android:layout_width="414dp"
                 android:layout_height="601dp"

@@ -78,7 +78,9 @@
         <!-- default start 17 -->
         <activity
             android:name=".iphone_6_7_8_plus___17_activity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
         <activity
             android:name=".iphone_6_7_8_plus___18_activity"
 
