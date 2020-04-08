@@ -48,19 +48,19 @@
         <activity
             android:name=".iphone_6_7_8_plus___11_activity"
             android:label="@string/your_problem_string"
-            android:parentActivityName=".iphone_6_7_8_plus___2_activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:parentActivityName=".iphone_6_7_8_plus___2_activity"></activity>
         <activity
             android:name=".iphone_6_7_8_plus___12_activity"
             android:label="@string/change_location_string"
             android:parentActivityName=".iphone_6_7_8_plus___2_activity"></activity>
         <activity
             android:name=".iphone_6_7_8_plus___13_activity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".iphone_6_7_8_plus___14_activity"
 
