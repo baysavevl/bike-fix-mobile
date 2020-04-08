@@ -193,7 +193,8 @@
 					 android:layout_marginStart="38dp"
 					android:layout_marginTop="18dp"
 					android:layout_width="38dp"
-					android:layout_height="44dp" />
+					android:layout_height="44dp"
+					android:onClick="clickToViewBike"/>
 
 				<ImageView android:id="@+id/layer_0_copy_2"
 					android:src="@drawable/layer_0_copy_2"
@@ -202,7 +203,8 @@
 					 android:layout_marginStart="345dp"
 					android:layout_marginTop="16dp"
 					android:layout_width="37dp"
-					android:layout_height="45dp" />
+					android:layout_height="45dp"
+					android:onClick="toAccount"/>
 
 				<ImageView android:id="@+id/req_un"
 					android:src="@drawable/req_un"
@@ -211,7 +213,8 @@
 					 android:layout_marginStart="180dp"
 					android:layout_marginTop="18dp"
 					android:layout_width="55dp"
-					android:layout_height="45dp" />
+					android:layout_height="45dp"
+					android:onClick="toRequest"/>
 
 			</RelativeLayout>
 

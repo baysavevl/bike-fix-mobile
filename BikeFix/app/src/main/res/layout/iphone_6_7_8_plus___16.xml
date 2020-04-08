@@ -66,6 +66,7 @@
 						android:textStyle="bold"
 						android:layout_height="31dp"
 						android:text="@string/remove_string"
+						android:onClick="remove"
 						 />
 
 				</RelativeLayout>
@@ -96,6 +97,7 @@
 						android:layout_height="31dp"
 						android:textStyle="bold"
 						android:text="@string/update_string"
+						android:onClick="update"
 						 />
 
 				</RelativeLayout>
@@ -190,7 +192,8 @@
 						 android:layout_marginStart="0dp"
 						android:layout_marginTop="-0dp"
 						android:layout_width="13.587169647217dp"
-						android:layout_height="22.750732421875dp" />
+						android:layout_height="22.750732421875dp"
+						android:onClick="back"/>
 
 				</RelativeLayout>
 

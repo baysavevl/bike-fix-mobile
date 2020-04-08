@@ -18,6 +18,8 @@
 package pj.pj.bikefix;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -116,6 +118,20 @@ public class iphone_6_7_8_plus___19_activity extends AppCompatActivity {
 		
 		//custom code goes here
 	
+	}
+
+    public void signUp(View view) {
+		Intent intent =
+				new Intent(this,
+						iphone_6_7_8_plus___1_activity.class);
+		startActivity(intent);
+    }
+
+	public void clickToLogin(View view) {
+		Intent intent =
+				new Intent(this,
+						iphone_6_7_8_plus___1_activity.class);
+		startActivity(intent);
 	}
 }
 	
