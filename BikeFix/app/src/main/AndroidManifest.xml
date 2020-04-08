@@ -52,12 +52,11 @@
         <activity
             android:name=".iphone_6_7_8_plus___11_activity"
             android:label="@string/your_problem_string"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".iphone_6_7_8_plus___2_activity"></activity>
+            android:parentActivityName=".iphone_6_7_8_plus___2_activity"/>
         <activity
             android:name=".iphone_6_7_8_plus___12_activity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:label="@string/app_name" />
+            android:label="@string/change_location_string"
+            android:parentActivityName=".iphone_6_7_8_plus___2_activity"/>
         <activity
             android:name=".iphone_6_7_8_plus___13_activity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
@@ -174,7 +173,7 @@
             android:label="@string/app_name" />
         <activity
             android:name=".iphone_6_7_8_plus___44_activity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name" />
     </application>
 

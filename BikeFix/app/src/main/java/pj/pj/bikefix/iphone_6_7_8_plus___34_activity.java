@@ -91,6 +91,7 @@ public class iphone_6_7_8_plus___34_activity extends AppCompatActivity {
 				Intent intent = new Intent(iphone_6_7_8_plus___34_activity.this,
 						iphone_6_7_8_plus___35_activity.class);
 				startActivity(intent);
+				overridePendingTransition(0, 0);
 				finish();
 			}
 		}, 1000);
