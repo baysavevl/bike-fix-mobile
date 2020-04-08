@@ -18,6 +18,8 @@
 package pj.pj.bikefix;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -63,8 +65,6 @@ public class iphone_6_7_8_plus___15_activity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___15);
 
-		
-		_bg__iphone_6_7_8_plus___15 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___15);
 		rectangle_49 = (View) findViewById(R.id.rectangle_49);
 		rectangle_48 = (View) findViewById(R.id.rectangle_48);
 		line_9 = (ImageView) findViewById(R.id.line_9);
@@ -75,7 +75,6 @@ public class iphone_6_7_8_plus___15_activity extends AppCompatActivity {
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
-		my_history = (TextView) findViewById(R.id.my_history);
 		rectangle_12 = (View) findViewById(R.id.rectangle_12);
 		group_4 = (ImageView) findViewById(R.id.group_4);
 		layer_0_copy_2 = (ImageView) findViewById(R.id.layer_0_copy_2);
@@ -96,6 +95,21 @@ public class iphone_6_7_8_plus___15_activity extends AppCompatActivity {
 		
 		//custom code goes here
 	
+	}
+
+    public void clickVerhicle(View view) {
+		Intent intent =new Intent(this,iphone_6_7_8_plus___10_activity.class);
+		startActivity(intent);
+    }
+
+	public void clickRequest(View view) {
+		Intent intent =new Intent(this,iphone_6_7_8_plus___2_activity.class);
+		startActivity(intent);
+	}
+
+	public void clickAccount(View view) {
+		Intent intent =new Intent(this,iphone_6_7_8_plus___3_activity.class);
+		startActivity(intent);
 	}
 }
 	
