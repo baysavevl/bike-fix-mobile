@@ -44,7 +44,6 @@ public class iphone_6_7_8_plus___13_activity extends AppCompatActivity {
         setContentView(R.layout.iphone_6_7_8_plus___13);
 
 
-        _bg__iphone_6_7_8_plus___13 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___13);
         rectangle_31 = (View) findViewById(R.id.rectangle_31);
         staticmap = (ImageView) findViewById(R.id.staticmap);
         pin_bg_copy_2 = (View) findViewById(R.id.pin_bg_copy_2);
