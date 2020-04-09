@@ -1,22 +1,20 @@
 package pj.pj.bikefix;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
-
-
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.TextView;
 
-public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-	
-	private View _bg__iphone_6_7_8_plus___7;
+public class iphone_6_7_8_plus___7_2_activity extends AppCompatActivity {
+
+
 	private View rectangle_copy_2;
 	private TextView emily_daniels;
 	private TextView pozna___poland;
@@ -71,7 +69,7 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
-		inflater.inflate(R.menu.m_7_cus, menu);
+		inflater.inflate(R.menu.m_7, menu);
 		return true;
 	}
 
@@ -88,6 +86,11 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 				startActivity(intent);
 				return true;
 
+			case R.id.mnu_change_store:
+				intent=new Intent(this,iphone_6_7_8_plus___47_activity.class);
+				startActivity(intent);
+				return true;
+
 
 			default:
 				return super.onOptionsItemSelected(item);
@@ -96,7 +99,7 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 
 	public void clickVerhicle(View view) {
 		Intent intent =
-				new Intent(iphone_6_7_8_plus___7_activity.this,
+				new Intent(iphone_6_7_8_plus___7_2_activity.this,
 						iphone_6_7_8_plus___10_activity.class);
 		startActivity(intent);
 		finish();
@@ -108,7 +111,7 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 
 	public void clickRequest(View view) {
 		Intent intent =
-				new Intent(iphone_6_7_8_plus___7_activity.this,
+				new Intent(iphone_6_7_8_plus___7_2_activity.this,
 						iphone_6_7_8_plus___2_activity.class);
 		startActivity(intent);
 		finish();

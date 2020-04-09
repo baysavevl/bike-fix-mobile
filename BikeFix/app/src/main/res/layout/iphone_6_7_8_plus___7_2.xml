@@ -1,0 +1,189 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".iphone_6_7_8_plus___7_activity">
+
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/rectangle_copy_2"
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:background="@drawable/rectangle_copy_2_shape">
+
+            <RelativeLayout
+                android:id="@+id/group_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="94.25dp"
+                android:layout_marginTop="10dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/group_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="124dp">
+
+                    <TextView
+                        android:id="@+id/emily_daniels"
+                        android:layout_width="231dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="Montserrat-Regular"
+                        android:gravity="center"
+                        android:text="@string/honda_vi_t_th_i_string"
+                        android:textColor="@color/emily_daniels_color"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/pozna___poland"
+                        android:layout_width="107dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="61dp"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="Montserrat-Medium"
+                        android:gravity="center"
+                        android:text="@string/pozna___poland_string"
+                        android:textColor="@color/pozna___poland_color"
+                        android:textSize="11sp" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/istockphoto_1003393752_170667a"
+                    android:layout_width="114dp"
+                    android:layout_height="114dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="istockphoto_1003393752_170667a"
+                    android:src="@drawable/istockphoto_1003393752_170667a" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/group_43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rectangle_copy_2"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:id="@+id/phone__"
+                android:layout_width="83dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="Montserrat-Medium"
+                android:gravity="center"
+                android:text="@string/phone___string"
+                android:textColor="@color/phone___color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/__84_963_192_405"
+                android:layout_width="133dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="Montserrat-Medium"
+                android:gravity="center"
+                android:text="@string/__84_963_192_405_string"
+                android:textColor="@color/emily_daniels_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/group_42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_43"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/email_"
+                android:layout_width="67dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="Montserrat-Medium"
+                android:gravity="center"
+                android:text="@string/email__string"
+                android:textColor="@color/phone___color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/my_google_gmail_com"
+                android:layout_width="193dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="Montserrat-Medium"
+                android:gravity="center"
+                android:text="@string/my_google_gmail_com_string"
+                android:textColor="@color/emily_daniels_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/group_41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/group_42"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/address_"
+                android:layout_width="93dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="Montserrat-Medium"
+                android:gravity="center"
+                android:text="@string/address__string"
+                android:textColor="@color/phone___color"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/s__12_____ng_d1__ph__ng_8___g__v_p__tp_h__ch__minh_"
+                android:layout_width="224dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="Montserrat-Medium"
+                android:text="@string/s__12_____ng_d1__ph__ng_8___g__v_p__tp_h__ch__minh__string"
+                android:textColor="@color/emily_daniels_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

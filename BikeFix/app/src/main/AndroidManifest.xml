@@ -38,6 +38,10 @@
             android:label="@string/account_string"
             android:parentActivityName=".iphone_6_7_8_plus___3_activity"></activity>
         <activity
+            android:name=".iphone_6_7_8_plus___7_2_activity"
+            android:label="@string/account_string"
+            android:parentActivityName=".iphone_6_7_8_plus___42_activity"></activity>
+        <activity
             android:name=".iphone_6_7_8_plus___8_activity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

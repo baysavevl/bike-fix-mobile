@@ -90,6 +90,11 @@ public class iphone_6_7_8_plus___42_activity extends AppCompatActivity {
 			}
 		});
 	}
+
+    public void clickGotoProfile(View view) {
+		Intent intent=new Intent(this,iphone_6_7_8_plus___7_2_activity.class);
+		startActivity(intent);
+    }
 }
 	
 	

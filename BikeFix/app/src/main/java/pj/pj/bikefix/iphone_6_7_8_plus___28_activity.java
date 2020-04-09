@@ -1,20 +1,4 @@
 
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		iphone_6_7_8_plus___28
-	 *	@date 		0
-	 *	@title 		iPhone 6/7/8 Plus  28
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.2.9.xd
-	 *
-	 */
-	
-
 package pj.pj.bikefix;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -29,7 +13,6 @@ import android.widget.TextView;
 public class iphone_6_7_8_plus___28_activity extends AppCompatActivity {
 
 	
-	private View _bg__iphone_6_7_8_plus___28;
 	private ImageView staticmap;
 	private ImageView path_11;
 	private View pin_bg_copy_2;
@@ -63,8 +46,6 @@ public class iphone_6_7_8_plus___28_activity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___28);
 
-		
-		_bg__iphone_6_7_8_plus___28 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___28);
 		staticmap = (ImageView) findViewById(R.id.staticmap);
 		path_11 = (ImageView) findViewById(R.id.path_11);
 		pin_bg_copy_2 = (View) findViewById(R.id.pin_bg_copy_2);

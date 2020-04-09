@@ -5,48 +5,39 @@
     android:orientation="vertical"
     tools:context=".iphone_6_7_8_plus___17_activity">
 
+    <RelativeLayout
+        android:id="@+id/logo_big"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170sp"
+        android:layout_weight="1">
 
-        <RelativeLayout
-            android:id="@+id/content_container"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="_2_copy"
+            android:src="@drawable/_2_copy" />
 
-            <RelativeLayout
-                android:id="@+id/logo_big"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="151dp"
-                android:layout_marginTop="286dp">
-
-                <TextView
-                    android:id="@+id/bikefix"
-                    android:layout_width="113dp"
-                    android:layout_height="49dp"
-                    android:layout_gravity="center_horizontal|center"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="121dp"
-                    android:fontFamily="Segoe UI"
-                    android:gravity="center"
-                    android:text="@string/bikefix_string"
-                    android:textColor="@color/bikefix_color"
-                    android:textSize="32sp"
-                    android:textStyle="bold" />
-
-                <ImageView
-                    android:id="@+id/_2_copy"
-                    android:layout_width="112dp"
-                    android:layout_height="120.73599243164dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginTop="0dp"
-                    android:contentDescription="_2_copy"
-                    android:src="@drawable/_2_copy" />
-
-            </RelativeLayout>
+        <TextView
+            android:layout_width="113dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="121dp"
+            android:fontFamily="Segoe UI"
+            android:gravity="center"
+            android:text="@string/bikefix_string"
+            android:textColor="@color/bikefix_color"
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
 
-        </RelativeLayout>
+    </RelativeLayout>
+
 
     <ImageView
         android:id="@+id/bg_wait"
