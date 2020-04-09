@@ -314,7 +314,23 @@
     <string name="identification_card___string">Identification Card:</string>
     <string name="store_image___string">Store Image:</string>
 
-
     <!-- iphone_6_7_8_plus___44 strings -->
     <string name="address___string">Address:</string>
+    <!-- iphone_6_7_8_plus___45 strings -->
+    <string name="save_string">Save</string>
+    <!-- iphone_6_7_8_plus___46 strings -->
+    <string name="confirm_new_password___string">Confirm New Password:</string>
+    <string name="change_password_string">Change Password</string>
+    <string name="new_pasword___string">New Pasword:</string>
+    <string name="enter_current_password_string">Enter current password</string>
+    <string name="enter_new_password_string">Enter new password</string>
+    <string name="re_enter_new_password_string">Re-enter new password</string>
+
+    <!-- iphone_6_7_8_plus___47 strings -->
+    <string name="store_information_string">Store Information</string>
+    <string name="___d_n____can___s_a___ng_c____thay_nh_t___thay_linh_ki_n_string">+ Dan de-can\n
++ Sua dong c\on
++ Thay nhot\n
++ Thay linh kien</string>
+    <string name="description__string">Description:</string>
 </resources>

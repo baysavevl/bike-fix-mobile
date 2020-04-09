@@ -1,0 +1,359 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		iphone_6_7_8_plus___46
+     *	@date 		0
+     *	@title 		iPhone 6/7/8 Plus  46
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.2.9.xd
+     *
+     */
+    -->
+    <ScrollView
+        android:id="@+id/iphone_6_7_8_plus___46"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="736dp">
+
+            <View
+                android:id="@+id/_bg__iphone_6_7_8_plus___46"
+                android:layout_width="414dp"
+                android:layout_height="736dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__iphone_6_7_8_plus___46_shape" />
+
+            <View
+                android:id="@+id/rectangle_copy_2"
+                android:layout_width="413.5dp"
+                android:layout_height="199.59741210938dp"
+                android:layout_marginStart="0.5dp"
+                android:layout_marginLeft="0.5dp"
+                android:layout_marginTop="59.5dp"
+                android:background="@drawable/rectangle_copy_2_shape" />
+
+
+            <RelativeLayout
+                android:id="@+id/group_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="94.25dp"
+                android:layout_marginTop="74dp">
+
+
+                <RelativeLayout
+                    android:id="@+id/group_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="124dp">
+
+                    <TextView
+                        android:id="@+id/emily_daniels"
+                        android:layout_width="231dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="Montserrat-Regular"
+                        android:gravity="center"
+                        android:text="@string/emily_daniels_string"
+                        android:textColor="@color/emily_daniels_color"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/pozna___poland"
+                        android:layout_width="107dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="61dp"
+                        android:layout_marginTop="32dp"
+                        android:fontFamily="Montserrat-Medium"
+                        android:gravity="center"
+                        android:text="@string/pozna___poland_string"
+                        android:textColor="@color/pozna___poland_color"
+                        android:textSize="11sp" />
+
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/istockphoto_1003393752_170667a"
+                    android:layout_width="114dp"
+                    android:layout_height="114dp"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="0dp"
+                    android:contentDescription="istockphoto_1003393752_170667a"
+                    android:src="@drawable/istockphoto_1003393752_170667a" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="291dp">
+
+                <TextView
+                    android:id="@+id/password__"
+                    android:layout_width="121dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="@string/password___string"
+                    android:textColor="@color/password___color"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/password__a"
+                    android:layout_width="121dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="*"
+                    android:textColor="@color/city___color"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/line_10"
+                    android:layout_width="330dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="58dp"
+                    android:contentDescription="line_10"
+                    android:src="@drawable/line_10" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="385dp">
+
+                <TextView
+                    android:id="@+id/new_pasword__"
+                    android:layout_width="163dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="@string/new_pasword___string"
+                    android:textColor="@color/password___color"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/new_pasword__a"
+                    android:layout_width="163dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="115dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="*"
+                    android:textColor="@color/city___color"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/line_10_ek1"
+                    android:layout_width="330dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="57dp"
+                    android:contentDescription="line_10_ek1"
+                    android:src="@drawable/line_10_ek1" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="478dp">
+
+                <TextView
+                    android:id="@+id/confirm_new_password__"
+                    android:layout_width="267dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="@string/confirm_new_password___string"
+                    android:textColor="@color/password___color"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/confirm_new_password__a"
+                    android:layout_width="267dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="190dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="Montserrat"
+                    android:text="*"
+                    android:textColor="@color/city___color"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/line_10_ek2"
+                    android:layout_width="330dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="58dp"
+                    android:contentDescription="line_10_ek2"
+                    android:src="@drawable/line_10_ek2" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/rectangle_37"
+                    android:layout_width="414dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_37_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/group_48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="17dp">
+
+                    <ImageView
+                        android:id="@+id/line_6"
+                        android:layout_width="30dp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:contentDescription="line_6"
+                        android:src="@drawable/line_6" />
+
+                    <ImageView
+                        android:id="@+id/path_1"
+                        android:layout_width="13.587158203125dp"
+                        android:layout_height="22.750732421875dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="-0dp"
+                        android:contentDescription="path_1"
+                        android:src="@drawable/path_1" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/change_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="Segoe UI"
+                    android:text="@string/change_password_string"
+                    android:textColor="@color/change_password_color"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/group_137"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="675dp">
+
+                <View
+                    android:id="@+id/rectangle_38"
+                    android:layout_width="414dp"
+                    android:layout_height="61dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_38_shape" />
+
+                <TextView
+                    android:id="@+id/save"
+                    android:layout_width="59dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="176dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="Segoe UI"
+                    android:gravity="center"
+                    android:text="@string/save_string"
+                    android:textColor="@color/change_password_color"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/enter_current_password"
+                android:layout_width="222dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="325dp"
+                android:fontFamily="Montserrat"
+                android:text="@string/enter_current_password_string"
+                android:textColor="@color/enter_current_password_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/enter_new_password"
+                android:layout_width="191dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="418dp"
+                android:fontFamily="Montserrat"
+                android:text="@string/enter_new_password_string"
+                android:textColor="@color/enter_current_password_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/re_enter_new_password"
+                android:layout_width="223dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="513dp"
+                android:fontFamily="Montserrat"
+                android:text="@string/re_enter_new_password_string"
+                android:textColor="@color/enter_current_password_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
