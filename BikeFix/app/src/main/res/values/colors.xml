@@ -282,4 +282,19 @@
     <!-- iphone_6_7_8_plus___44 colors -->
 
     <color name="_bg__iphone_6_7_8_plus___44_color">#ffffff</color>
+    <!-- iphone_6_7_8_plus___45 colors -->
+
+    <color name="_bg__iphone_6_7_8_plus___45_color">#ffffff</color>
+<!--    <color name="emily_daniels_color">#35343d</color>-->
+    <!-- iphone_6_7_8_plus___46 colors -->
+    <color name="_bg__iphone_6_7_8_plus___46_color">#ffffff</color>
+    <color name="password___color">#272727</color>
+    <color name="change_password_color">#ffffff</color>
+    <color name="enter_current_password_color">#989898</color>
+    <!-- iphone_6_7_8_plus___47 colors -->
+    <color name="_bg__iphone_6_7_8_plus___47_color">#ffffff</color>
+    <color name="store_information_color">#ffffff</color>
+    <color name="___d_n____can___s_a___ng_c____thay_nh_t___thay_linh_ki_n_color">#000000</color>
+    <color name="store_image___color">#ff0000</color>
+    <color name="ellipse_9_color">#ff0000</color>
 </resources>
