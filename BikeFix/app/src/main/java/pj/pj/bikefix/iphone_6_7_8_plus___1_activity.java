@@ -60,8 +60,6 @@ import androidx.appcompat.app.AppCompatActivity;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___1);
 
-		
-		_bg__iphone_6_7_8_plus___1 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___1);
 		line = (ImageView) findViewById(R.id.line);
 		rectangle_4 = (View) findViewById(R.id.rectangle_4);
 		password = (ImageView) findViewById(R.id.password);

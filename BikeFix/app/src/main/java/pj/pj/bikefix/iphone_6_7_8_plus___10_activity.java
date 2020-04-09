@@ -64,8 +64,7 @@ public class iphone_6_7_8_plus___10_activity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___10);
 
-		
-		_bg__iphone_6_7_8_plus___10 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___10);
+
 		rectangle_49 = (View) findViewById(R.id.rectangle_49);
 		rectangle_34 = (View) findViewById(R.id.rectangle_34);
 		line_5 = (ImageView) findViewById(R.id.line_5);
