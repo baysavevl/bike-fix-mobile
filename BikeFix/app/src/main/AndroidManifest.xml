@@ -173,7 +173,8 @@
             android:label="@string/app_name" />
         <activity
             android:name=".iphone_6_7_8_plus___45_activity"
-            android:label="@string/app_name" />
+            android:label="edit_account_string"
+            android:parentActivityName=".iphone_6_7_8_plus___7_activity" />
         <activity
             android:name=".iphone_6_7_8_plus___46_activity"
             android:label="@string/change_password_string"
