@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -52,14 +53,10 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___47);
 
-		
-		_bg__iphone_6_7_8_plus___47 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___47);
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
-		store_information = (TextView) findViewById(R.id.store_information);
 		rectangle_39 = (View) findViewById(R.id.rectangle_39);
-		___d_n____can___s_a___ng_c____thay_nh_t___thay_linh_ki_n = (TextView) findViewById(R.id.___d_n____can___s_a___ng_c____thay_nh_t___thay_linh_ki_n);
 		description_ = (TextView) findViewById(R.id.description_);
 		rectangle_19 = (View) findViewById(R.id.rectangle_19);
 		submit = (TextView) findViewById(R.id.submit);
@@ -74,6 +71,10 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		
 		//custom code goes here
 	
+	}
+
+	public void clickSubmit(View view) {
+		finish();
 	}
 }
 	

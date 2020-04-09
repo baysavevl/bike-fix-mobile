@@ -30,8 +30,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 	public class iphone_6_7_8_plus___3_activity extends AppCompatActivity {
 
-	
-	private View _bg__iphone_6_7_8_plus___3;
 	private ImageView line_7;
 	private TextView emily_daniels;
 	private TextView emily_daniels_gmail_;
@@ -54,8 +52,7 @@ import androidx.appcompat.app.AppCompatActivity;
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___3);
 
-		
-		_bg__iphone_6_7_8_plus___3 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___3);
+
 		line_7 = (ImageView) findViewById(R.id.line_7);
 		emily_daniels = (TextView) findViewById(R.id.emily_daniels);
 		emily_daniels_gmail_ = (TextView) findViewById(R.id.emily_daniels_gmail_);

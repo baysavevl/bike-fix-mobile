@@ -1,27 +1,14 @@
-
-	 
-	/*
-	 *	This content is generated from the API File Info.
-	 *	(Alt+Shift+Ctrl+I).
-	 *
-	 *	@desc 		
-	 *	@file 		iphone_6_7_8_plus___7
-	 *	@date 		0
-	 *	@title 		iPhone 6/7/8 Plus  7
-	 *	@author 	
-	 *	@keywords 	
-	 *	@generator 	Export Kit v1.2.9.xd
-	 *
-	 */
-	
-
 package pj.pj.bikefix;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
 
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.ImageView;
@@ -57,8 +44,6 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.iphone_6_7_8_plus___7);
 
-		
-		_bg__iphone_6_7_8_plus___7 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___7);
 		rectangle_copy_2 = (View) findViewById(R.id.rectangle_copy_2);
 		emily_daniels = (TextView) findViewById(R.id.emily_daniels);
 		pozna___poland = (TextView) findViewById(R.id.pozna___poland);
@@ -73,7 +58,6 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
 		account = (TextView) findViewById(R.id.account);
-		edit = (TextView) findViewById(R.id.edit);
 		rectangle_12 = (View) findViewById(R.id.rectangle_12);
 		group_48 = (View) findViewById(R.id.group_48);
 		group_4 = (ImageView) findViewById(R.id.group_4);
@@ -83,41 +67,56 @@ public class iphone_6_7_8_plus___7_activity extends AppCompatActivity {
 		
 		//custom code goes here
 
-		// back
-		group_48.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				finish();
-			}
-		});
-		// vehicle
-		group_4.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent intent =
-						new Intent(iphone_6_7_8_plus___7_activity.this,
-								iphone_6_7_8_plus___10_activity.class);
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.m_7, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+		Intent intent=null;
+		switch (item.getItemId()) {
+			case R.id.mnu_change_password:
+				intent=new Intent(this,iphone_6_7_8_plus___46_activity.class);
 				startActivity(intent);
-			}
-		});
-		// request
-		req_un.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				Intent intent =
-						new Intent(iphone_6_7_8_plus___7_activity.this,
-								iphone_6_7_8_plus___2_activity.class);
+				return true;
+			case R.id.mnu_edit_acc:
+				intent=new Intent(this,iphone_6_7_8_plus___45_activity.class);
 				startActivity(intent);
-				finish();
-			}
-		});
-		// account
-		layer_0_copy_2.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				finish();
-			}
-		});
+				return true;
+
+			case R.id.mnu_change_store:
+				intent=new Intent(this,iphone_6_7_8_plus___47_activity.class);
+				startActivity(intent);
+				return true;
+
+
+			default:
+				return super.onOptionsItemSelected(item);
+		}
+	}
+
+	public void clickVerhicle(View view) {
+		Intent intent =
+				new Intent(iphone_6_7_8_plus___7_activity.this,
+						iphone_6_7_8_plus___10_activity.class);
+		startActivity(intent);
+		finish();
+	}
+
+	public void clickAccount(View view) {
+		finish();
+	}
+
+	public void clickRequest(View view) {
+		Intent intent =
+				new Intent(iphone_6_7_8_plus___7_activity.this,
+						iphone_6_7_8_plus___2_activity.class);
+		startActivity(intent);
+		finish();
 	}
 }
 	

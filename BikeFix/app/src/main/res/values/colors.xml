@@ -3,7 +3,7 @@
     <!-- iphone_6_7_8_plus___1 colors -->
 
     <color name="colorPrimary">#f39625</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#f39625</color>
     <color name="colorAccent">#D81B60</color>
 
     <color name="_bg__iphone_6_7_8_plus___1_color">#ffffff</color>
