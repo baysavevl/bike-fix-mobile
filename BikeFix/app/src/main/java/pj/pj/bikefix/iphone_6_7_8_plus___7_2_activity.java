@@ -40,7 +40,7 @@ public class iphone_6_7_8_plus___7_2_activity extends AppCompatActivity {
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.iphone_6_7_8_plus___7);
+		setContentView(R.layout.iphone_6_7_8_plus___7_2);
 
 		rectangle_copy_2 = (View) findViewById(R.id.rectangle_copy_2);
 		emily_daniels = (TextView) findViewById(R.id.emily_daniels);
@@ -95,26 +95,6 @@ public class iphone_6_7_8_plus___7_2_activity extends AppCompatActivity {
 			default:
 				return super.onOptionsItemSelected(item);
 		}
-	}
-
-	public void clickVerhicle(View view) {
-		Intent intent =
-				new Intent(iphone_6_7_8_plus___7_2_activity.this,
-						iphone_6_7_8_plus___10_activity.class);
-		startActivity(intent);
-		finish();
-	}
-
-	public void clickAccount(View view) {
-		finish();
-	}
-
-	public void clickRequest(View view) {
-		Intent intent =
-				new Intent(iphone_6_7_8_plus___7_2_activity.this,
-						iphone_6_7_8_plus___2_activity.class);
-		startActivity(intent);
-		finish();
 	}
 }
 	

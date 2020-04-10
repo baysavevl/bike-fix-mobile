@@ -56,8 +56,9 @@ public class iphone_6_7_8_plus___45_activity extends AppCompatActivity {
         path_1 = (ImageView) findViewById(R.id.path_1);
         account = (TextView) findViewById(R.id.account);
         save = (TextView) findViewById(R.id.save);
-
-
+if(!AppCore.isCus){
+    emily_daniels.setText(getString(R.string.honda_vi_t_th_i_string));
+}
         //custom code goes here
 
     }

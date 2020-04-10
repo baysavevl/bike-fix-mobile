@@ -107,7 +107,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp" android:onClick="clickGotoProfile">
+                    android:layout_marginTop="0dp"
+                    android:onClick="clickGotoProfile">
 
                     <ImageView
                         android:id="@+id/line_7"
@@ -121,12 +122,12 @@
 
                     <TextView
                         android:id="@+id/emily_daniels"
-                        android:layout_width="165dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="28dp"
                         android:layout_marginLeft="110dp"
                         android:layout_marginTop="23dp"
                         android:fontFamily="Montserrat-Regular"
-                        android:text="@string/emily_daniels_string"
+                        android:text="@string/honda_vi_t_th_i_string"
                         android:textColor="@color/emily_daniels_color"
                         android:textSize="20sp" />
 
