@@ -62,6 +62,10 @@
             android:label="@string/change_location_string"
             android:parentActivityName=".iphone_6_7_8_plus___2_activity" />
         <activity
+            android:name=".iphone_6_7_8_plus___13_activity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
             android:name=".iphone_6_7_8_plus___14_activity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

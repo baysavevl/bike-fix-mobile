@@ -97,12 +97,12 @@ public class iphone_6_7_8_plus___10_activity extends AppCompatActivity {
 		//custom code goes here
 
 		// back
-		group_48.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				finish();
-			}
-		});
+//		group_48.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				finish();
+//			}
+//		});
 		// detail vehicle
 		group_43.setOnClickListener(new View.OnClickListener() {
 			@Override
