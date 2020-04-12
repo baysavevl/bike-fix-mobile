@@ -73,7 +73,7 @@ public class iphone_6_7_8_plus___8_activity extends AppCompatActivity {
 				startActivity(intent);
 				finish();
 			}
-		}, 10000);
+		}, 5000);
 
 
 	}

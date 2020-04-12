@@ -5,9 +5,9 @@
 	 *	(Alt+Shift+Ctrl+I).
 	 *
 	 *	@desc 		
-	 *	@file 		iphone_6_7_8_plus___47
+	 *	@file 		iphone_6_7_8_plus___48
 	 *	@date 		0
-	 *	@title 		iPhone 6/7/8 Plus  47
+	 *	@title 		iPhone 6/7/8 Plus  48
 	 *	@author 	
 	 *	@keywords 	
 	 *	@generator 	Export Kit v1.2.8.xd
@@ -26,10 +26,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class iphone_6_7_8_plus___47_activity extends Activity {
+public class iphone_6_7_8_plus___48_activity extends Activity {
 
 	
-	private View _bg__iphone_6_7_8_plus___47;
+	private View _bg__iphone_6_7_8_plus___48;
 	private View rectangle_37;
 	private ImageView line_6;
 	private ImageView path_1;
@@ -49,34 +49,32 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 	private View ellipse_9_ek1;
 	private ImageView line_19_ek1;
 	private ImageView line_20_ek1;
-	private TextView flat_tire_repair;
+	private TextView v__xe;
 	private View rectangle_92;
 	private View rectangle_93;
 	private View rectangle_91_ek1;
 	private View ellipse_9_ek2;
 	private ImageView line_19_ek2;
 	private ImageView line_20_ek2;
-	private TextView replace_broken_spoke_s_;
-	private View rectangle_91_ek2;
-	private View ellipse_9_ek3;
-	private ImageView line_19_ek3;
-	private ImageView line_20_ek3;
-	private TextView replace_broken_spoke_s__ek1;
-	private View rectangle_91_ek3;
-	private View ellipse_9_ek4;
-	private ImageView line_19_ek4;
-	private ImageView line_20_ek4;
-	private TextView replace_tire_s_;
+	private TextView s_a_th_ng_xe;
+	private View rectangle_44;
+	private View rectangle_45;
+	private TextView new_service_;
+	private View rectangle_46;
+	private TextView fill_your_service_;
+	private View rectangle_47;
 	private TextView add;
+	private View rectangle_47_ek1;
+	private TextView cancel;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.iphone_6_7_8_plus___47);
+		setContentView(R.layout.iphone_6_7_8_plus___48);
 
 		
-		_bg__iphone_6_7_8_plus___47 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___47);
+		_bg__iphone_6_7_8_plus___48 = (View) findViewById(R.id._bg__iphone_6_7_8_plus___48);
 		rectangle_37 = (View) findViewById(R.id.rectangle_37);
 		line_6 = (ImageView) findViewById(R.id.line_6);
 		path_1 = (ImageView) findViewById(R.id.path_1);
@@ -96,34 +94,38 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		ellipse_9_ek1 = (View) findViewById(R.id.ellipse_9_ek1);
 		line_19_ek1 = (ImageView) findViewById(R.id.line_19_ek1);
 		line_20_ek1 = (ImageView) findViewById(R.id.line_20_ek1);
-		flat_tire_repair = (TextView) findViewById(R.id.flat_tire_repair);
+		v__xe = (TextView) findViewById(R.id.v__xe);
 		rectangle_92 = (View) findViewById(R.id.rectangle_92);
 		rectangle_93 = (View) findViewById(R.id.rectangle_93);
 		rectangle_91_ek1 = (View) findViewById(R.id.rectangle_91_ek1);
 		ellipse_9_ek2 = (View) findViewById(R.id.ellipse_9_ek2);
 		line_19_ek2 = (ImageView) findViewById(R.id.line_19_ek2);
 		line_20_ek2 = (ImageView) findViewById(R.id.line_20_ek2);
-		replace_broken_spoke_s_ = (TextView) findViewById(R.id.replace_broken_spoke_s_);
-		rectangle_91_ek2 = (View) findViewById(R.id.rectangle_91_ek2);
-		ellipse_9_ek3 = (View) findViewById(R.id.ellipse_9_ek3);
-		line_19_ek3 = (ImageView) findViewById(R.id.line_19_ek3);
-		line_20_ek3 = (ImageView) findViewById(R.id.line_20_ek3);
-		replace_broken_spoke_s__ek1 = (TextView) findViewById(R.id.replace_broken_spoke_s__ek1);
-		rectangle_91_ek3 = (View) findViewById(R.id.rectangle_91_ek3);
-		ellipse_9_ek4 = (View) findViewById(R.id.ellipse_9_ek4);
-		line_19_ek4 = (ImageView) findViewById(R.id.line_19_ek4);
-		line_20_ek4 = (ImageView) findViewById(R.id.line_20_ek4);
-		replace_tire_s_ = (TextView) findViewById(R.id.replace_tire_s_);
-		add = (TextView) findViewById(R.id.txtAdd);
+		s_a_th_ng_xe = (TextView) findViewById(R.id.s_a_th_ng_xe);
+		rectangle_44 = (View) findViewById(R.id.rectangle_44);
+		rectangle_45 = (View) findViewById(R.id.rectangle_45);
+		new_service_ = (TextView) findViewById(R.id.new_service_);
+		rectangle_46 = (View) findViewById(R.id.rectangle_46);
+		fill_your_service_ = (TextView) findViewById(R.id.fill_your_service_);
+		rectangle_47 = (View) findViewById(R.id.rectangle_47);
+		add = (TextView) findViewById(R.id.add);
+		rectangle_47_ek1 = (View) findViewById(R.id.rectangle_47_ek1);
+		cancel = (TextView) findViewById(R.id.cancel);
+	
 		
 		//custom code goes here
 	
 	}
 
-    public void clickToAddService(View view) {
-		Intent intent = new Intent(this, iphone_6_7_8_plus___48_activity.class);
+	public void backService(View view) {
+		Intent intent = new Intent(this, iphone_6_7_8_plus___47_activity.class);
 		startActivity(intent);
-    }
+	}
+
+	public void addService(View view) {
+		Intent intent = new Intent(this, iphone_6_7_8_plus___47_activity.class);
+		startActivity(intent);
+	}
 }
 	
 	

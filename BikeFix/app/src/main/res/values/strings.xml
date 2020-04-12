@@ -334,4 +334,17 @@
 + Thay linh kien</string>
     <string name="description__string">Description:</string>
     <string name="account_string">Account</string>
+
+
+    <string name="flat_tire_repair_string">Flat tire repair</string>
+    <string name="replace_broken_spoke_s__string">Replace broken spoke(s)</string>
+    <string name="replace_broken_spoke_s__ek1_string">Replace broken spoke(s)</string>
+    <string name="replace_tire_s__string">Replace tire(s)</string>
+
+    <string name="v__xe_string">V xe</string>
+    <string name="s_a_th_ng_xe_string">Sa thng xe</string>
+    <string name="new_service__string">New service:</string>
+    <string name="fill_your_service__string">Fill your service</string>
+    <string name="add_string">Add</string>
+
 </resources>

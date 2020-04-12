@@ -191,6 +191,10 @@
             android:name=".iphone_6_7_8_plus___47_activity"
             android:label="@string/store_information_string"
             android:parentActivityName=".iphone_6_7_8_plus___7_activity" />
+        <activity
+            android:name=".iphone_6_7_8_plus___48_activity"
+            android:label="@string/bikefix_string"
+            android:parentActivityName=".iphone_6_7_8_plus___7_activity" />
     </application>
 
 </manifest>
