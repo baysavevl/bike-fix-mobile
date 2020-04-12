@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -66,6 +67,7 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 	private ImageView line_19_ek4;
 	private ImageView line_20_ek4;
 	private TextView replace_tire_s_;
+	private TextView add;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -112,11 +114,16 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		line_19_ek4 = (ImageView) findViewById(R.id.line_19_ek4);
 		line_20_ek4 = (ImageView) findViewById(R.id.line_20_ek4);
 		replace_tire_s_ = (TextView) findViewById(R.id.replace_tire_s_);
-	
+		add = (TextView) findViewById(R.id.txtAdd);
 		
 		//custom code goes here
 	
 	}
+
+    public void clickToAddService(View view) {
+		Intent intent = new Intent(this, iphone_6_7_8_plus___48_activity.class);
+		startActivity(intent);
+    }
 }
 	
 	

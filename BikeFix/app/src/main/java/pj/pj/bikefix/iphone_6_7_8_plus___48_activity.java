@@ -18,6 +18,7 @@
 package pj.pj.bikefix;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 
 
@@ -114,6 +115,16 @@ public class iphone_6_7_8_plus___48_activity extends Activity {
 		
 		//custom code goes here
 	
+	}
+
+	public void backService(View view) {
+		Intent intent = new Intent(this, iphone_6_7_8_plus___47_activity.class);
+		startActivity(intent);
+	}
+
+	public void addService(View view) {
+		Intent intent = new Intent(this, iphone_6_7_8_plus___47_activity.class);
+		startActivity(intent);
 	}
 }
 	

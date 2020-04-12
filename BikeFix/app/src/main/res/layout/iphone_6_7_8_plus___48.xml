@@ -554,7 +554,8 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="146dp"
-							android:layout_height="46dp" />
+							android:layout_height="46dp"
+							android:onClick="addService"/>
 
 						<TextView android:id="@+id/add"
 							android:fontFamily="Montserrat"
@@ -584,7 +585,8 @@
 							 android:layout_marginStart="0dp"
 							android:layout_marginTop="0dp"
 							android:layout_width="146dp"
-							android:layout_height="46dp" />
+							android:layout_height="46dp"
+							android:onClick="backService"/>
 
 						<TextView android:id="@+id/cancel"
 							android:fontFamily="Montserrat"
