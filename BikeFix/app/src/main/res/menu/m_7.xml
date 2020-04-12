@@ -7,7 +7,7 @@
         android:title="Update Information" />
     <item
         android:id="@+id/mnu_change_store"
-        android:title="Change Store Informations" />
+        android:title="Change Store Information" />
     <item
         android:id="@+id/mnu_change_password"
         android:title="Change Password" />

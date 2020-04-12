@@ -297,4 +297,11 @@
     <color name="___d_n____can___s_a___ng_c____thay_nh_t___thay_linh_ki_n_color">#000000</color>
     <color name="store_image___color">#ff0000</color>
     <color name="ellipse_9_color">#ff0000</color>
+
+    <color name="_bg__iphone_6_7_8_plus___48_color">#ffffff</color>
+
+    <color name="new_service__color">#000000</color>
+    <color name="rectangle_47_ek1_color">#989898</color>
+
+    <color name="services__color">#4d4b49</color>
 </resources>
