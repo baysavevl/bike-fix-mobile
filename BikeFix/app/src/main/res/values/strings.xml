@@ -346,5 +346,6 @@
     <string name="new_service__string">New service:</string>
     <string name="fill_your_service__string">Fill your service</string>
     <string name="add_string">Add</string>
+    <string name="add_services"><u>Add</u></string>
 
 </resources>

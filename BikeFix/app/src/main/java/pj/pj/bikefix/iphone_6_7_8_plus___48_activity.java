@@ -94,14 +94,10 @@ public class iphone_6_7_8_plus___48_activity extends Activity {
 		ellipse_9_ek1 = (View) findViewById(R.id.ellipse_9_ek1);
 		line_19_ek1 = (ImageView) findViewById(R.id.line_19_ek1);
 		line_20_ek1 = (ImageView) findViewById(R.id.line_20_ek1);
-		v__xe = (TextView) findViewById(R.id.v__xe);
-		rectangle_92 = (View) findViewById(R.id.rectangle_92);
-		rectangle_93 = (View) findViewById(R.id.rectangle_93);
 		rectangle_91_ek1 = (View) findViewById(R.id.rectangle_91_ek1);
 		ellipse_9_ek2 = (View) findViewById(R.id.ellipse_9_ek2);
 		line_19_ek2 = (ImageView) findViewById(R.id.line_19_ek2);
 		line_20_ek2 = (ImageView) findViewById(R.id.line_20_ek2);
-		s_a_th_ng_xe = (TextView) findViewById(R.id.s_a_th_ng_xe);
 		rectangle_44 = (View) findViewById(R.id.rectangle_44);
 		rectangle_45 = (View) findViewById(R.id.rectangle_45);
 		new_service_ = (TextView) findViewById(R.id.new_service_);

@@ -53,6 +53,9 @@ public class iphone_6_7_8_plus___46_activity extends Activity {
 
 
         //custom code goes here
+        if(!AppCore.isCus){
+            emily_daniels.setText(getString(R.string.honda_vi_t_th_i_string));
+        }
 
     }
 

@@ -97,8 +97,6 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		line_19_ek1 = (ImageView) findViewById(R.id.line_19_ek1);
 		line_20_ek1 = (ImageView) findViewById(R.id.line_20_ek1);
 		flat_tire_repair = (TextView) findViewById(R.id.flat_tire_repair);
-		rectangle_92 = (View) findViewById(R.id.rectangle_92);
-		rectangle_93 = (View) findViewById(R.id.rectangle_93);
 		rectangle_91_ek1 = (View) findViewById(R.id.rectangle_91_ek1);
 		ellipse_9_ek2 = (View) findViewById(R.id.ellipse_9_ek2);
 		line_19_ek2 = (ImageView) findViewById(R.id.line_19_ek2);
@@ -107,7 +105,6 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 		rectangle_91_ek2 = (View) findViewById(R.id.rectangle_91_ek2);
 		ellipse_9_ek3 = (View) findViewById(R.id.ellipse_9_ek3);
 		line_19_ek3 = (ImageView) findViewById(R.id.line_19_ek3);
-		line_20_ek3 = (ImageView) findViewById(R.id.line_20_ek3);
 		replace_broken_spoke_s__ek1 = (TextView) findViewById(R.id.replace_broken_spoke_s__ek1);
 		rectangle_91_ek3 = (View) findViewById(R.id.rectangle_91_ek3);
 		ellipse_9_ek4 = (View) findViewById(R.id.ellipse_9_ek4);
@@ -120,10 +117,19 @@ public class iphone_6_7_8_plus___47_activity extends Activity {
 	
 	}
 
-    public void clickToAddService(View view) {
+	public void clickToAddService(View view) {
 		Intent intent = new Intent(this, iphone_6_7_8_plus___48_activity.class);
 		startActivity(intent);
     }
+
+
+	public void clickBack(View view) {
+		finish();
+	}
+
+	public void ckickRemoveService(View view) {
+	findViewById(R.id.group_200).setVisibility(View.GONE);
+	}
 }
 	
 	
