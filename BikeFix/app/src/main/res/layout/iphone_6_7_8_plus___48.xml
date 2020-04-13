@@ -374,7 +374,6 @@
 							android:layout_marginStart="10dp"
 							android:layout_marginLeft="10dp"
 							android:layout_marginTop="5dp"
-							android:onClick="clickToAddService"
 							android:text="@string/add_services"
 							android:textColor="#D68421" />
 						<!--					<Button-->
