@@ -53,6 +53,7 @@
 					android:layout_marginStart="20dp"
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
+					android:onClick="clickToBack"
 					>
 
 					<ImageView android:id="@+id/line_6"
@@ -138,7 +139,6 @@
 				<TextView android:id="@+id/store_image__"
 					android:fontFamily="Gadugi"
 					android:textSize="17sp"
-					android:textColor="@color/store_image___color"
 					android:layout_marginLeft="0dp"
 					android:layout_marginTop="15dp"
 					android:layout_width="115dp"
